@@ -1,7 +1,7 @@
 # Semestrálny projekt - eshop
 
 ## Zadanie
-Vytvorte webovú aplikáciu - eshop, ktorá komplexne rieši nižšie definované scenáre vo vami zvolenej doméne (napr. elektro, oblečenie, obuv, nábytok). Presný rozsah a konkretizáciu scenárov si dohodnete s Vašim cvičiacim na cvičení.
+Vytvorte webovú aplikáciu - eshop, ktorá komplexne rieši nižšie definované prípady použitia vo vami zvolenej doméne (napr. elektro, oblečenie, obuv, nábytok). Presný rozsah a konkretizáciu prípadov použitia si dohodnete s Vašim cvičiacim na cvičení.
 
 
 ## Termíny odovzdania
