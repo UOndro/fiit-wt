@@ -2,11 +2,11 @@
 
 
 ## Hodnotenie
-**Projekt:** 40 (5+10+10+15) bodov
-**3 krátke testy:** 6 (2+2+2) bodov
-**Praktický test:** 10 bodov
-**Záverečný test (skúška):** 44 bodov
-**Spolu:** 100 (56 + 44) bodov
+**Projekt:** 40 (5+10+10+15) bodov  
+**3 krátke testy:** 6 (2+2+2) bodov  
+**Praktický test:** 10 bodov  
+**Záverečný test (skúška):** 44 bodov  
+**Spolu:** 100 (56 + 44) bodov  
 
 ### Známka
 A - výborne, 92 až 100 bodov   
