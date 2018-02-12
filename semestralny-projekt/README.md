@@ -7,11 +7,11 @@ Vytvorte webovú aplikáciu - eshop, ktorá komplexne rieši nižšie definovan�
 ## Termíny odovzdania
 * **Odovzdanie 1. fázy projektu: 3. týždeň - 2.3. do 23:59 v AIS, 5 bodov,** vytvorenie skíc jednotlivých stránok pre 3 typy rozlíšení
 * **Odovzdanie 2. fázy projektu: 6. týždeň - 23.3. do 23:59 v AIS, 10 bodov (8 + 2 body),** vytvorenie responzívnych šablón na základe vytvorených skíc/predloh (8 bodov); návrh dátového modelu a implementovaný relačný model (2 body)
-* **Odovzdanie 3. fázy projektu: 8. týždeň - 6.4. do 23:59, 10 bodov,** implementácia logiky eshopu (server-side rendering) s využitím PHP frameworku (odporúčaný Laravel)
-* **Odovzdanie 4. fázy projektu: 11. týždeň - 24.4. do 8:00, 15 bodov,** implementácia chatu (komunikácia v reálnom čase) a jeho integrácia do eshopu (vue.js + node.js) + finálna dokumentácia
+* **Odovzdanie 3. fázy projektu: 8. týždeň - 6.4. do 23:59 v AIS, 10 bodov,** implementácia logiky eshopu (server-side rendering) s využitím PHP frameworku (odporúčaný Laravel)
+* **Odovzdanie 4. fázy projektu: 11. týždeň - 24.4. do 8:00 v AIS, 15 bodov,** implementácia chatu (komunikácia v reálnom čase) a jeho integrácia do eshopu (vue.js + node.js) + finálna dokumentácia
 
 ## Termíny prezentovania
-Študenti prezentujú kontrolné fázy projektu na cvičeniach, a to:
+V čase cvičení študent predvedie na svojom počítači svoje riešenie (fázy projektu), a to:
 * **Prezentovanie 1. fázy projektu: 4. týždeň - 6.3.**
 * **Prezentovanie 2. fázy projektu: 7. týždeň - 27.3.**
 * **Prezentovanie 3. fázy projektu: 9. týždeň - 10.4.**

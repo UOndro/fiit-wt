@@ -4,7 +4,7 @@ Kurz Webové technológie poskytuje základné poznatky o architektúre webovýc
 
 ## Obsah
 
-1. [Základné informácie + Harmonogram](zakladne-informacie)
+1. [Základné informácie + harmonogram](zakladne-informacie)
 2. [Podmienky absolvovania a hodnotenie](podmienky-absolvovania-a-hodnotenie)
 3. [Semestrálny projekt](semestralny-projekt)
 4. [Cvičenia](cvicenia)
