@@ -21,7 +21,7 @@ V čase cvičení študent predvedie na svojom počítači svoje riešenie (fáz
 ## Aplikácia - eshop
 V poslednom kontrolnom termíne **aplikácia musí pozostávať aspoň z týchto častí**:
 * **hlavná stránka** s možnostou vyhľadávania v produktoch (vyhľadávanie dostupné ideálne naprieč celou aplikáciou)
-* **zobrazenie prehľadu všetkých produktov** z vybratej kategórie, s možnosťou základného filtrovania, rozumne stránkovaných (ak je to potrebné)
+* **zobrazenie prehľadu všetkých produktov** z vybratej kategórie používateľom, s možnosťou základného filtrovania, rozumne stránkovaných (ak je to potrebné)
 * **stránka s detailom o produkte** s možnosťou vloženia produktu do nákupného košíka
 * **nákupný košík** s možnosťou vytvorenia objednávky
     * pozostávajúci aspoň z troch krokov, a to: sumarizácia daných položiek v košíku, výber dopravy a platby, dodacie údaje
@@ -35,7 +35,7 @@ V poslednom kontrolnom termíne **aplikácia musí pozostávať aspoň z týchto
 
 **Aplikácia musí realizovať tieto prípady použitia:**
 
-* zobrazenie prehľadu všetkých produktov z vybratej kategórie s možnosťou základného filtrovania, rozumne stránkovaných (ak je to potrebné)
+* zobrazenie prehľadu všetkých produktov z vybratej kategórie používateľom s možnosťou základného filtrovania, rozumne stránkovaných (ak je to potrebné)
 * zobrazenie konkrétneho produktu - detail produktu
     * pridanie produktu do košíka
 * zobrazenie nákupného košíka
@@ -43,23 +43,24 @@ V poslednom kontrolnom termíne **aplikácia musí pozostávať aspoň z týchto
     * odobratie produktu
     * výber dopravy
     * výber platby
-    * vloženie dodacích údajov
+    * zadanie dodacích údajov
     * dokončenie objednávky
-* registrácia používateľa
-* prihlásenie používateľa do eshopu
-* prihlásenie používateľa do administrátorského rozhrania eshopu
-* odhlásenie používateľa
+* registrácia používateľa/zákazníka
+* prihlásenie používateľa/zákazníka
+* prihlásenie používateľa/administrátora do administrátorského rozhrania eshopu
+* odhlásenie zákazníka
+* odhlásenie administrátora z administrátorského rozhrania
 * plno-textové vyhľadávanie v produktoch (angl. full-text search)
     * zobrazenie výsledkov vyhľadávania
-* vytvorenie nového produktu cez administrátorské rozhranie
-* upravenie existujúceho produktu cez administrátorské rozhranie
-* vymazanie existujúceho produktu cez administrátorské rozhranie
-* zobrazenie integrovaného chatu na stránkach eshopu
+* vytvorenie nového produktu administrátorom cez administrátorské rozhranie
+* upravenie existujúceho produktu administrátorom cez administrátorské rozhranie
+* vymazanie existujúceho produktu administrátorom cez administrátorské rozhranie
+* zobrazenie integrovaného chatu zákazníkom na stránkach eshopu
     * vytvorenie správy
-    * zobrazenie histórie komunikácie aktuálneho sedenia
-* zobrazenie chatu v administrátorskom rozhraní
+    * zobrazenie histórie komunikácie s pracovníkom podpory aktuálneho sedenia
+* zobrazenie chatu administrátorom v administrátorskom rozhraní
     * vytvorenie správy
-    * zobrazenie histórie komunikácie aktuálneho sedenia
+    * zobrazenie histórie komunikácie so zíkazníkom/zákazníkmi aktuálneho sedenia
 
 ## Dátový model
 V druhom kontrolnom termíne sa odovzdáva JPG (JPEG) obrázok logického dátového modelu reprezentovaného UML class diagramom a implementovaný model v SQL databáze - schéma SQL DDL, ktorým sa vytvára (odporúčaný PosgreSQL).
