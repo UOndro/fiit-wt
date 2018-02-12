@@ -1,11 +1,33 @@
 # Cvičenia
 
- **Cvičenie 1 (13.2.)**
+**Cvičenie 1 (13.2.)**
 
-1. [Vývojové prostredie PhpStorm](1-c/vyvojove-prostredie-phpstorm)
-2. [Skice grafického používateľského rozhrania eshopu](1-c/skice-grafickeho-pouzivatelskeho-rozhrania-eshopu)
-3. Domáca úloha po 1. prednáške: [HTML,CSS](1-c/html-css)
+1. [Skice grafického používateľského rozhrania eshopu](1-c/skice-grafickeho-pouzivatelskeho-rozhrania-eshopu)
+2. [Vývojové prostredie PhpStorm](1-c/vyvojove-prostredie-phpstorm)
 
- **Cvičenie 2 (20.2.)**
+**Cvičenie 2 (20.2.)**
 
-3. [CSS]
+**Cvičenie 3 (27.2.)**
+
+**Cvičenie 4 (6.3.)**
+
+**Cvičenie 5 (13.3.)**
+
+**Cvičenie 6 (20.3.)**
+
+**Cvičenie 7 (27.3.)**
+
+**Cvičenie 8 (3.4.)**
+
+**Cvičenie 9 (10.4.)**
+
+**Cvičenie 10 (17.4.)**
+
+**Cvičenie 11 (24.4.)**
+
+**Cvičenie 12 (10.5., štvrtok, náhrada za utorok)**
+
+
+
+
+

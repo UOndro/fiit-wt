@@ -1,19 +1,20 @@
-#Skice grafického používateľského rozhrania eshopu
+# Skice grafického používateľského rozhrania eshopu
 
 ## Inicializácia semestrálneho projektu
 
 **Oboznámte sa s nástrojom na vytváranie skíc** grafického používateľského rozhrania webových stránok (angl. [wireframe](https://en.wikipedia.org/wiki/Website_wireframe)). Odporúčam nástroj [Mockflow](https://mockflow.com/). Pre vytvorenie jedného projektu je zadarmo. Nástroj je odporúčaný, a teda môžete použiť akýkoľvek iný.
 
 **Vašou úlohou je zvoliť si doménu eshopu** (napr. elektro, oblečenie, obuv, nábytok) a **vytvoriť skice** (aspoň) pre tieto stránky:
-* **hlavná stránka** (angl. [homepage](https://en.wikipedia.org/wiki/Home_page), niekedy tiež [landing page](https://en.wikipedia.org/wiki/Landing_page))
+* **hlavná stránka** (angl. [homepage](https://en.wikipedia.org/wiki/Home_page), niekedy tiež [landing page](https://en.wikipedia.org/wiki/Landing_page)) s možnostou vyhľadávania v produktoch (ideálne naprieč celou aplikáciou)
+* **zobrazenie prehľadu všetkých produktov** z vybratej kategórie, s možnosťou základného filtrovania, rozumne stránkovaných (ak je to potrebné)
 * **stránka s detailom o produkte** s možnosťou vloženia produktu do nákupného košíka
 * **nákupný košík** s možnosťou vytvorenia objednávky
     * pozostávajúci aspoň z troch krokov, a to: sumarizácia daných položiek v košíku, výber dopravy a platby, dodacie údaje 
 * **stránka s výsledkami vyhľadávania**
-* **prihlásenie a registrácia** (v prípade použitia "vyskakovacieho" panelu na prihlásenie sa používateľa je potrebné toto ilustrovať na niektorej z vytvorených stránok)  
+* **prihlásenie a registrácia používateľa** (v prípade použitia "vyskakovacieho" panelu na prihlásenie sa používateľa je potrebné toto ilustrovať na niektorej z vytvorených stránok)
 * **administrátorské rozhranie** 
-  * prihlásenie
-  * stránka na pridanie produktu
+  * prihlásenie používateľa
+  * stránka na pridanie/upravenie/vymazanie produktu
 
 **Vytvorte všetky skice pre tieto typy zariadení:**
 * malé zariadenia/mobilné telefóny - 576px
@@ -22,7 +23,7 @@
 
 Prečo tieto rozlíšenia? Pozrite si, čo sú [responsive breakpoints](https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints), [mobile first](https://responsivedesign.is/strategy/page-layout/defining-breakpoints/).
 
-**Pozrite si ukážky** [úvodnej stránky](zdroje/vsehochut-eshop-priklad.pdf) a [detailu produktu](). Aspoň taká by mala byť tiež úroveň abstrakcie vašich skíc.
+**Pozrite si ukážku** [úvodnej stránky](zdroje/vsehochut-eshop-priklad.pdf). Aspoň taká by mala byť tiež úroveň abstrakcie vašich skíc.
 
 **Pozorne si prečítajte nasledujúci text/rady.**
 
@@ -62,7 +63,7 @@ Kreslenie rozhraní treba dostať do ruky, môžeme sa inšpirovať rukou kresle
 Pamätajme, prechod/tok používateľa/nášho zákazníka webom (angl. user flow) by mal byť intuitívny, a teda, aby našiel v správnom okamihu, na očakávanom mieste to, na čo práve myslí/potrebuje. Zosobnime sa s cieľovými používateľmi/zákazníkmi.
 
 ### 1. Na začiatku sa vyhnime farbám
-Farba je mocný nástroj, ale na vo fáze vytvárania skíc môže byť rušivá/kontrakproduktívna. Preferujme stupne šedej (angl. grayscale), šedá je neutrálna. Ak potrebujeme používať farbu, používajme ju dômyselne. V diskusii (s klientom) môže nesprávny výber farby spôsobiť, že namiesto podstaty a o návrhových rozhodnutiach budeme hovoriť a farebnej palete, ktorú preferuje klient (klient môže považovať celý návrh za zlý, a to "iba" kvôli farbám). Celé spektrum šedej nám umožňuje dávať (často dostatočne) rôznym prvkom rôznu dôležitosť/akcent (tmavo-šedá upúta skôr pozornosť ako svetlo-šedá). Tým, že zadefinujeme prvkom dôležitosť určujeme tok používateľa (jeho smerovanie pohľadu) po stránke. Tento tok by mal reflektovať naše/zákazníkové očakávania/požiadavky - biznis ciele, [konverzie](https://en.wikipedia.org/wiki/Conversion_rate_optimization). Použitie rôznych stupňov šedej nám/grafikovi tiež uľahčí vytváranie výslednej podoby dizajnu stránky.  
+Farba je mocný nástroj, ale vo fáze vytvárania skíc môže byť rušivá/kontrakproduktívna. Preferujme stupne šedej (angl. grayscale), šedá je neutrálna. Ak potrebujeme používať farbu, používajme ju dômyselne. V diskusii (s klientom) môže nesprávny výber farby spôsobiť, že namiesto podstaty a o návrhových rozhodnutiach budeme hovoriť a farebnej palete, ktorú preferuje klient (klient môže považovať celý návrh za zlý, a to "iba" kvôli farbám). Celé spektrum šedej nám umožňuje dávať (často dostatočne) rôznym prvkom rôznu dôležitosť/akcent (tmavo-šedá upúta skôr pozornosť ako svetlo-šedá). Tým, že zadefinujeme prvkom dôležitosť určujeme tok používateľa (jeho smerovanie pohľadu) po stránke. Tento tok by mal reflektovať naše/zákazníkové očakávania/požiadavky - biznis ciele, [konverzie](https://en.wikipedia.org/wiki/Conversion_rate_optimization). Použitie rôznych stupňov šedej nám/grafikovi tiež uľahčí vytváranie výslednej podoby dizajnu stránky.
 
 ### 2. Konzistencia
 Skice sú nástrojom, ktorý nám má pomôcť proces vývoja uľahčiť. Ak budú mať podobné prvky podobný vzhľad a funkciu, potom si ľudia/používatelia ľahšie prenesú poznatky do nových kontextov a rýchlejšie sa naučia nové veci, pochopia im. Používajme rovnaký jazyk, šablóny, (zaužívané) vzory a komponenty správne. Ak budeme [konzistentní](https://uxdesign.cc/design-principle-consistency-6b0cf7e7339f), vyhneme sa aj odvracaniu pozornosti od dôležitých aspektov. Buďme konzistentní, ale nie jednotvárni a nudní. Existujúce nástroje nás v tomto podporujú. 
@@ -73,19 +74,19 @@ Ak nemáme textový obsah, napíšme/požadujme ho. Písanie [cieleného/vhodné
 Je dôležité, aby sme vedeli odhadnúť reálnu dĺžku/rozsah textu v častiach s fixnými/ohraničenými rozmermi. Ak nebudeme uvažovať hraničné dĺžky textov, môžeme byť nemilo prekvapení, keď sa nám vizuál neskôr "rozbije", napr. text začne  "pretekať" medzi jednolivými blokmi, tlačidlo sa začne prekrývať s obsahom. Pozor však na priveľa textu, môže aj zatieniť náhľad na celkové rozloženie prvkov - môže sa to prejaviť neskôr. Ak potrebujeme, pripravme si viacero variantov, na ktorých chceme ilustrovať predmetné aspekty návrhu.    
 
 ### 4. Pýtajme sa na názor iných
-Celé je to o zdielaní a prezentovaní nápadov, myšlienok. Keď umožníme, aby ich pochopili aj iní, ich potenciál sa môže znásobiť. Nie sme experti na všetko, často ani doménoví experti, nechajme ego stranou. Sme vývojári, vieme softvér navrhovať, programovať, ale nepoznáme odpovedene na všetky otázky - ako sa bude v danej situácii správať používateľ, aké má zvyky? Je potrebná spolupráca,diskusia.       
+Celé je to o zdielaní a prezentovaní nápadov, myšlienok. Keď umožníme, aby ich pochopili aj iní, ich potenciál sa môže znásobiť. Nie sme experti na všetko, často ani doménoví experti, nechajme ego stranou. Sme vývojári, vieme softvér navrhovať, programovať, ale nepoznáme odpovedene na všetky otázky - ako sa bude v danej situácii správať používateľ, aké má zvyky? Je potrebná spolupráca, diskusia.
 
 ### 5. Buďme selektívni a robme veci jednoduchými
 Keď máme veľa nápadov mávame tendenciu ich spojiť, prepojiť, aby všetko spolupracovalo, postupne miešame prvky z jedného nápadu s druhým, vzníká "guláš", v ktorom je zrazu všetko dôležité, vzniká zmätok, začíname sa strácať. Každému nápadu dajmä svoj vlastný priestor.
 
 ### 6. Zvoľme úroveň podrobnosti aká je potreba
-Skice sa radia do tzv. prototypov s obmedzenou/nízkou úrovňou podrobností (angl. [low fidelity prototypes vs. high fidelity prototypes](https://www.nngroup.com/articles/ux-prototype-hi-lo-fidelity/)). Avšak aj samotné skice môžu mať rôznu úroveň podrobnosti/abstrakcie, štýl, precíznosť prevedenia. "Low-fidelity" neznamená nerealistický. Ak chceme skice viac realistické, môžeme sa viac pohrať napr. s textom, s výberom vhodného/ideálneho písma, experimentovať s veľkosťou, silou/tučnosťou (angl. font weight), variantom (kapitálky), štýlom (kurzivá). 
+Skice sa radia do tzv. prototypov s obmedzenou/nízkou úrovňou podrobností (angl. [low fidelity representation vs. high fidelity representation](https://www.nngroup.com/articles/ux-prototype-hi-lo-fidelity/)). Avšak aj samotné skice môžu mať rôznu úroveň podrobnosti/abstrakcie, štýl, precíznosť prevedenia. "Low-fidelity" neznamená nerealistický. Ak chceme skice viac realistické, môžeme sa viac pohrať napr. s textom, s výberom vhodného/ideálneho písma, experimentovať s veľkosťou, silou/tučnosťou (angl. font weight), variantom (kapitálky), štýlom (kurzivá).
 
 Použitím ďalších farieb, môžeme tiež prispieť k realističnosti skíc (treba mať ale na pamäti 1. bod). Ofarbenie pozadia, tlačidla, textu môže zvýšiť dôležitosť jednotlivých prvkov, podporiť tok používateľa, zvýrazniť akcie nad rámec toho, čo môže ponúknuť odtieň šedej. Buďme ale opatrní, nepoužívajme "šialené" farby (napr. paletu kriklavých farieb). Riskujeme, že sa zníži efektivita farieb a tiež, že budeme venovať v tejto fáze neprimeráne úsilie niečomu, čo v konečnom dôsledku grafik úplne zmení. 
 
 Realističnosť tiež môžeme podporiť obrázkami, pozadím, textúrou, avatarom, náhľadom, ikonou (napr. páčik, angl. like). Jednoduché grafické prvky, relevantné fotografie a videá sú častými "pomocníkmi" v produktoch orientovaných na obsah (angl. content-centric product). Umožňujú zaujať, robia obsah čitatelnejším, prehladnejším, platí staré známe - jeden obrázok je viac ako tisíc slov. Začlenenie grafických prvkov už v skicách môže mať svoje opodstatnenie, typ obsahu môže významne ovplyvniť celkovú štruktúru a informačnú hierarchiu. Treba ale opäť opatrne, fotografia by mal mať aj svoju hodnotu, a nie byť iba "dekoratívnym gíčom".
 
-Návrh, reprezentovaný ako skica môže byť tiež klikateľný. Nie je to už v pravom slova zmysle skica, aj keď tak čo sa vizuálneho stvárnenia vyzerá. Mnohé nástroje umožňujú vytvoriť "interaktívne skice". Môžeme tak ilustrovať základné správanie rozhrania, napr.  vyskakovacie/modálne/dialogové okná, rozšírenie alebo zväčšenie obsahu, rôzné gestá ako kliknutie, posunutie (angl. scrolling, swiping). Úplne v prvých návrhoch by sme sa však interakciou nemali zaoberať.
+Návrh, reprezentovaný ako skica môže byť tiež klikateľný. Nie je to už v pravom slova zmysle skica, aj keď tak čo sa vizuálneho stvárnenia vyzerá. Mnohé nástroje umožňujú vytvoriť "interaktívne skice". Môžeme tak ilustrovať základné správanie rozhrania, napr.  vyskakovacie/modálne/dialogové okná, rozšírenie alebo zväčšenie obsahu, rôzné gestá ako kliknutie, posunutie (angl. scrolling, swiping). Nemali by sme však začínať interaktívnymi prototypmi.
 
 Keď máme k dispozícii iba ceruzku a papier, máme k dispozícii jednu farbu a písmo, do momentu, keď sa rozhodneme siahnúť po hrubšiu ceruzku (s inou farbou). Prototypovacie nástroje tiež limitujú naše možnosti - hrúbku čiary, farby, typy písma. Zatiaľ čo [Balsamiq](https://balsamiq.com) je v tomto významne limitujúci, [Axure](https://www.axure.com/) poskytuje významne viac flexibility. Nezabúdajme, niekedy, je menej viac. Aj kvôli tomu, že mnohé nástroje umožňujú vytvárať ako skice, tak aj prototypy, a kombinovať ich, [pojmy wireframe - mockup - prototype sú často používané nesprávne](#vs-wireframe-mockup-prototype). 
 
@@ -99,10 +100,10 @@ Rozmanitosť zariadení a rozlíšení je veľká ([štatistiky o najpoužívane
 Aj skice už vytvárajme s ohľadom na ekosystém. Nie je dobré miešať hrušky s jablkami. Ak navrhujeme aplikáciu, napr. pre Android, riaďme sa pravidlami [Material dizajnu](https://material.io/guidelines/). Komponenty typické pre Android, navigačné prvky, nemusia byť samozrejmosťou (ani nie sú) na [zariadeniach od Appleu](https://developer.apple.com/design/), a opačne.   
 
 
- ## <a name="vs-wireframe-mockup-prototype"></a> Wireframe vs. Mockup vs. Prototype
+ ## <a name="vs-wireframe-mockup-prototype"></a>Wireframe vs. Mockup vs. Prototype
  
  ### Wireframe (skica)
- Je reprezentácia návrhu/dizajnu (používateľského rozhrania) s nízkou vernosťou (angl. low fidelity representation]). Mal by jasne ukazovať:
+ Je reprezentácia návrhu/dizajnu (používateľského rozhrania) s nízkou vernosťou (angl. low fidelity representation). Mal by jasne ukazovať:
  * ČO? - hlavný obsah/skupiny obsahu
  * KDE? - štruktúra informácií
  * AKO? - opis a základná vizualizácia interakcie používateľského rozhrania
@@ -118,9 +119,9 @@ Aj skice už vytvárajme s ohľadom na ekosystém. Nie je dobré miešať hrušk
  Je reprezentácia návrhu/dizajnu (používateľského rozhrania) so strednou až vysokou vernosťou (angl. middle to high fidelity representation]). Veľmi často je výstupom realistický - skutočný vizuálny dizajn, alebo takmer realistický vizuálny dizajnový koncept. Mal by:
  
  * reprezentovať štruktúru informácií, vizualizovať obsah a demonštrovať základnú funkcionalitu statickou formou (obrazovky)
- * stvárnenie všetkých prvkov by malo umožniť ľuďom posúdiť vizuálnu stránku projektu 
- 
- 
+ * stvárnenie všetkých prvkov by malo umožniť ľuďom posúdiť vizuálnu stránku projektu
+
+
  * Podrobnosť: stredná až vysoká vernosť (angl. middle to high fidelity)
  * Cena: €€
  * Použitie: na získanie názoru/spätnej väzby od zainteresovaných strán
