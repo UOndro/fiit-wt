@@ -12,9 +12,11 @@
     * pozostávajúci aspoň z troch krokov, a to: sumarizácia daných položiek v košíku, výber dopravy a platby, dodacie údaje 
 * **stránka s výsledkami vyhľadávania**
 * **prihlásenie a registrácia používateľa** (v prípade použitia "vyskakovacieho" panelu na prihlásenie sa používateľa je potrebné toto ilustrovať na niektorej z vytvorených stránok)
+* **integrovaný chat** na (realtime) komunikáciu s pracovníkom eshopu
 * **administrátorské rozhranie** 
   * prihlásenie používateľa
   * stránka na pridanie/upravenie/vymazanie produktu
+  * stránka na komunikáciu so zákazníkom/návštevníkom (chat)
 
 **Vytvorte všetky skice pre tieto typy zariadení:**
 * malé zariadenia/mobilné telefóny - 576px

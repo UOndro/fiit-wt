@@ -27,7 +27,7 @@ V poslednom kontrolnom termíne **aplikácia musí pozostávať aspoň z týchto
     * pozostávajúci aspoň z troch krokov, a to: sumarizácia daných položiek v košíku, výber dopravy a platby, dodacie údaje
 * **stránka s výsledkami vyhľadávania**
 * **prihlásenie a registrácia používateľa**
-* **integrovaný chat** na (reatime) komunikáciu s pracovníkom eshopu
+* **integrovaný chat** na (realtime) komunikáciu s pracovníkom eshopu
 * **administrátorské rozhranie**
   * prihlásenie používateľa
   * stránka na pridanie/upravenie/vymazanie produktu
