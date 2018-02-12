@@ -87,7 +87,7 @@ Odporúčané technológie:
 * Laravel PHP rámec
 * PostgreSQL relačný databázový systém
 
-Povinné technológie pre implementácia chatu:
+Povinné technológie pre implementáciu chatu:
 * Node.js
 * Vue.js
 
@@ -97,7 +97,8 @@ Použitie iných technológií, napr. iný PHP rámec alebo relačný databázov
 ## Dokumentácia
 Dokumentácia musí obsahovať minimálne tieto časti:
 * zadanie
+* vytvorené skice rozhrania 
 * diagram logického a fyzického dátového modelu spolu s ich opisom
 * opis návrhu / návrhové rozhodnutia
 * prog. prostredie
-* opis implementácie jednotlivých scenárov
+* opis implementácie jednotlivých prípadov použitia, snímky obrazoviek (angl. screenshot, snapshot) konečného  rozhrania
