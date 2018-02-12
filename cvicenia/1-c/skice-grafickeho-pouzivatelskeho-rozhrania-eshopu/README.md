@@ -122,8 +122,7 @@ Aj skice už vytvárajme s ohľadom na ekosystém. Nie je dobré miešať hrušk
  
  * reprezentovať štruktúru informácií, vizualizovať obsah a demonštrovať základnú funkcionalitu statickou formou (obrazovky)
  * stvárnenie všetkých prvkov by malo umožniť ľuďom posúdiť vizuálnu stránku projektu
-
-
+ 
  * Podrobnosť: stredná až vysoká vernosť (angl. middle to high fidelity)
  * Cena: €€
  * Použitie: na získanie názoru/spätnej väzby od zainteresovaných strán
@@ -135,7 +134,6 @@ Aj skice už vytvárajme s ohľadom na ekosystém. Nie je dobré miešať hrušk
   
   * "zažiť" obsah a interagovať s rozhraním
   * testovať hlavné interakcie veľmi podobne až rovnako ako v konečnom produkte
-
   
   * Podrobnosť: stredná až vysoká vernosť (angl. middle to high fidelity)
   * Cena: €€€
