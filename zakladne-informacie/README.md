@@ -1,4 +1,4 @@
-# Základné informácie
+# Základné informácie + harmonogram
 
 ## O predmete
 
