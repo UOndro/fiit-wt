@@ -104,12 +104,12 @@ Aj skice už vytvárajme s ohľadom na ekosystém. Nie je dobré miešať hrušk
  ## <a name="vs-wireframe-mockup-prototype"></a>Wireframe vs. Mockup vs. Prototype
  
  ### Wireframe (skica)
- Je reprezentácia návrhu/dizajnu (používateľského rozhrania) s nízkou vernosťou (angl. low fidelity representation). Mal by jasne ukazovať:
+ Je reprezentácia návrhu/dizajnu (používateľského rozhrania) s nízkou vernosťou (angl. low fidelity representation). Mala by jasne ukazovať:
  * ČO? - hlavný obsah/skupiny obsahu
  * KDE? - štruktúra informácií
  * AKO? - opis a základná vizualizácia interakcie používateľského rozhrania
  
- Mal by zobrazovať/ilustrovať každý dôležitý prvok konečného produktu. Mal by byť vytvorený rýchlo a  čas by mal byť vyhradený/využitý prevažne na komunikáciu (v tíme, so zákazníkom).
+ Mala by zobrazovať/ilustrovať každý dôležitý prvok konečného produktu. Mala by byť vytvorená rýchlo a čas by mal byť vyhradený/využitý prevažne na komunikáciu (v tíme, so zákazníkom).
  
  * Podrobnosť: nízka vernosť (angl. low fidelity)
  * Cena: €
