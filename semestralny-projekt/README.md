@@ -20,7 +20,7 @@ V čase cvičení študent predvedie na svojom počítači svoje riešenie (fáz
 
 ## Aplikácia - eshop
 V poslednom kontrolnom termíne **aplikácia musí pozostávať aspoň z týchto častí**:
-* **hlavná stránka** s možnostou vyhľadávania v produktoch (ideálne naprieč celou aplikáciou)
+* **hlavná stránka** s možnostou vyhľadávania v produktoch (vyhľadávanie dostupné ideálne naprieč celou aplikáciou)
 * **zobrazenie prehľadu všetkých produktov** z vybratej kategórie, s možnosťou základného filtrovania, rozumne stránkovaných (ak je to potrebné)
 * **stránka s detailom o produkte** s možnosťou vloženia produktu do nákupného košíka
 * **nákupný košík** s možnosťou vytvorenia objednávky
