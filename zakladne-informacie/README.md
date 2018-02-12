@@ -6,12 +6,12 @@
 **Počet kreditov:** 6  
 **Semester:** letný  
 **Počet hodín týždenne (prednášky - cvičenia):** 2 - 2  
-**Čas a miestnosť prednášky:**  Štvrtok, 13:00-14:50, -1.57/a (U80a)  
+**Čas a miestnosť prednášky:**  štvrtok, 13:00-14:50, -1.57/a (U80a)
 **Sylabus predmetu:** v AIS  
 **Garant predmetu:** Ing. Eduard Kuric, PhD.  
 **Cvičiaci:**  
-* Ing. Eduard Kuric, PhD. (Utorok, 9:00-10:50, -1.40 PU1)
-* Ing. Róbert Móro, PhD. (Utorok, 11:00-12:50, -1.40 PU1)
+* Ing. Eduard Kuric, PhD. (utorok, 9:00-10:50, -1.40 PU1)
+* Ing. Róbert Móro, PhD. (utorok, 11:00-12:50, -1.40 PU1)
 
 
 ## Harmonogram 
