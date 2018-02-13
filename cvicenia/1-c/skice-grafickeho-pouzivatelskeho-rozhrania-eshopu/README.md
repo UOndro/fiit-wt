@@ -36,10 +36,10 @@ To, čo musíme urobiť je popremýšľať nad našimi stránkami, určiť celko
 Pri návrhu pre zákazníka je dôležité sa čo najlepšie zoznámiť s produktom. Aj k tomu sú skice vynikajúcim prostriedkom.
 
 Skica webovej stránky (angl. web page wireframe) je zjednodušená vizuálna reprezentácia dizajnu/grafického používateľského rozhrania webovej stránky. Používa sa na odkomunikovanie týchto detailov: 
-* Aké funkcie má stránka obsahovať?
+* **Aké funkcie má stránka obsahovať?**
   * výber produktov podľa kategórie, zobrazenie odporúčaných produktov, zobrazenie najnovších produktov, prihlásenie používateľa, zobrazenie košíka, ...
-* Čo bude zobrazené na predmetnej stránke? 
-  * menu s kategóriami produktov – položky: všehochuť.sk, Počítače a elektro ...
+* **Čo bude zobrazené na predmetnej stránke?**
+  * menu s kategóriami produktov – položky: Domov (všehochuť.sk), Počítače a elektro ...
   * výber najnovších produktov
   * niekoľko odporúčaných produktov
   * veľký reklamný banner
@@ -47,16 +47,16 @@ Skica webovej stránky (angl. web page wireframe) je zjednodušená vizuálna re
   * prihlásenie používateľa,
   * logo
   * ...
-* Akou formou budú informácie/komponenty zobrazené/prezentované a ako budú jednotlivé prvky/časti rozhrania rozmiestnené?
+* **Akou formou budú informácie/komponenty zobrazené/prezentované a ako budú jednotlivé prvky/časti rozhrania rozmiestnené?**
   * menu s kategóriami bude vo vrchnej časti pod logom a vyhľadávaním, orientované horizontálne, zoznam kategórií
-* Ako budú informácie usporiadané?
+* **Ako budú informácie usporiadané?**
   * položky v menu budú v tomto poradí: všehochuť.sk, Počítače a elektro...
-* Ako bude používateľ interagovať s rozhraním, aká je spätná väzba a ako sa správajú jednotlivé komponenty?
+* **Ako bude používateľ interagovať s rozhraním, aká je spätná väzba a ako sa správajú jednotlivé komponenty?**
   * vyhľadávanie – používateľ klikne myšou na vstupné pole, text „Sem napíšte hľadané slovo“ zmizne, používateľ napíše hľadaný výraz, vyhľadávanie potvrdí stlačením klávesu ENTER, ak klikne mimo pola, napísaný text zostane v poli (ak chceme/potrebujeme ešte vyššiu podrobnosť, napr. kliknutím na vstupné pole sa toto rozšíri/zväčší sa jeho dĺžka)
 
 Pri vytváraní skice stránky skúšame rôzne vizuálne umiestnenia pre každý prvok. Sú určité návrhové úzusy/vzory (angl. user interface design patterns), ktoré je dobré dodržiavať, lebo sú na ne používatelia zvyknutí, napr. umiestnenie nákupného košíka - vpravo hore. Čo ak by sme ho umiestnili vľavo hore? ;-)
 
-Držme sa [vzorov](http://ui-patterns.com/), prílišné experimentovanie a extravagantné prvky, najmä v (ovládacích) komponentoch rozhrania a navigácii sa nemusia oplatiť. Na určovanie hlavných trendov sú tu väčšinou iní - veľkí hráči  ([material design](https://material.io/guidelines/), [fluent design](https://fluent.microsoft.com/)). Samozrejme, kreativitou a inováciami sa môžeme odlíšiť a zaujať, v dnešnej dobe je to až nevýhnutnosť (spolu s dobrým marketingom ;)), ale všetko s mierou. Pýtajme sa na názory ľudí - používateľov/zákazníkov.
+Držme sa [vzorov](http://ui-patterns.com/), prílišné experimentovanie a extravagantné prvky, najmä v (ovládacích) komponentoch rozhrania a navigácii sa nemusia oplatiť. Na určovanie hlavných trendov sú tu väčšinou iní - veľkí hráči  ([material design](https://material.io/guidelines/), [fluent design](https://fluent.microsoft.com/)). Samozrejme, kreativitou a inováciami sa môžeme odlíšiť a zaujať, v dnešnej dobe je to až nevýhnutnosť (spolu s dobrým marketingom ;-)), ale všetko s mierou. Pýtajme sa na názory ľudí - používateľov/zákazníkov.
 
 V tejto fáze by sme nemali riešiť, ako budú vyzerať jednotlivé prvky z hľadiska ich grafického stvárnenia - umeleckého prevedenia, napr. či bude tlačidlo obdĺžnikové, alebo elipsovité, či bude mať červený rámik a transparentné pozadie, či použijeme plochý dizajn (angl. [flat design](https://en.wikipedia.org/wiki/Flat_design), FYI [ghost button](https://en.wikipedia.org/wiki/Flat_design)). Snažme sa, aby boli naše skice nespútané, aby to boli dostatočne presné, ale zároveň hrubé náčrty zachytávajúce potrebné prvky, aby sme boli schopní diskutovať o návrhových rozhodnutiach/nápadoch a pružne ich meniť.  
 
@@ -110,7 +110,7 @@ Nie sú to očarujúce umelecké diela. Skicovanie je prostriedok na rýchle for
 Rozmanitosť zariadení a rozlíšení je veľká ([štatistiky o najpoužívanejších rozlíšeniach zariadení](http://gs.statcounter.com/screen-resolution-stats)). Je potrebné vytvoriť skice pre rôzne rozlíšenia. Nie je dobré spoliehať sa, že responzívny rámec (angl. responsive design framework) za nás všetko vyrieši. Je potrebné prispôsobovať návrh - rozhranie (pridávať/odoberať) funkcie s ohľadom na technické možnosti zariadenia, komfort a potreby používateľa.
 
 ### 9. Ekosystémy a pravidlá
-Aj skice už vytvárajme s ohľadom na ekosystém. Nie je dobré miešať hrušky s jablkami. Ak navrhujeme aplikáciu, napr. pre Android, riaďme sa pravidlami [Material dizajnu](https://material.io/guidelines/). Komponenty typické pre Android, navigačné prvky, nemusia byť samozrejmosťou (ani nie sú) na [zariadeniach od Appleu](https://developer.apple.com/design/), a opačne.   
+Aj skice už vytvárajme s ohľadom na ekosystém. Nie je dobré miešať hrušky s jablkami. Ak navrhujeme aplikáciu, napr. pre Android, riaďme sa pravidlami [Material dizajnu](https://material.io/guidelines/). Komponenty typické pre Android, navigačné prvky, nemusia byť samozrejmosťou (ani nie sú) na [zariadeniach od Appleu](https://developer.apple.com/design/), a opačne (aj keď toto platí skôr pri natívnych aplikáciach).
 
 
  ## <a name="vs-wireframe-mockup-prototype"></a>Wireframe vs. Mockup vs. Prototype
@@ -129,7 +129,7 @@ Aj skice už vytvárajme s ohľadom na ekosystém. Nie je dobré miešať hrušk
  * Charakteristika: náčrt, reprezentácia čierno-biela/v stupnici šedej  
   
  ### Mockup (skoro/realistická maketa dizajnu)
- Je reprezentácia návrhu/dizajnu (používateľského rozhrania) so strednou až vysokou vernosťou (angl. middle to high fidelity representation]). Veľmi často je výstupom realistický - skutočný vizuálny dizajn, alebo takmer realistický vizuálny dizajnový koncept. Mal by:
+ Je reprezentácia návrhu/dizajnu (používateľského rozhrania) so strednou až vysokou vernosťou (angl. middle to high fidelity representation). Veľmi často je výstupom realistický - skutočný vizuálny dizajn, alebo takmer realistický vizuálny dizajnový koncept. Mal by:
  
  * reprezentovať štruktúru informácií, vizualizovať obsah a demonštrovať základnú funkcionalitu statickou formou (obrazovky)
  * stvárnenie všetkých prvkov by malo umožniť ľuďom posúdiť vizuálnu stránku projektu
@@ -176,4 +176,3 @@ Aj skice už vytvárajme s ohľadom na ekosystém. Nie je dobré miešať hrušk
  * [UI Patterns](http://ui-patterns.com/patterns) - veľa UI dizajnových vzorov
  * [pttrns](https://pttrns.com/) - veľa UI dizajnových vzorov pre mobily
  * [John Ferris - Layout Design Patterns](http://pixelwhip.github.io/layout-design-patterns/#/title-slide)
- 
