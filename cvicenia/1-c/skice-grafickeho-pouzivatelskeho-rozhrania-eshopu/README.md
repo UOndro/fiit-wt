@@ -36,7 +36,7 @@ To, čo musíme urobiť je popremýšľať nad našimi stránkami, určiť celko
 Pri návrhu pre zákazníka je dôležité sa čo najlepšie zoznámiť s produktom. Aj k tomu sú skice vynikajúcim prostriedkom.
 
 Skica webovej stránky (angl. web page wireframe) je zjednodušená vizuálna reprezentácia dizajnu/grafického používateľského rozhrania webovej stránky. Používa sa na odkomunikovanie týchto detailov: 
-* Aké funkcie ma stránka obsahovať?
+* Aké funkcie má stránka obsahovať?
   * výber produktov podľa kategórie, zobrazenie odporúčaných produktov, zobrazenie najnovších produktov, prihlásenie používateľa, zobrazenie košíka, ...
 * Čo bude zobrazené na predmetnej stránke? 
   * menu s kategóriami produktov – položky: všehochuť.sk, Počítače a elektro ...
