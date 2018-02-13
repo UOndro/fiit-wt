@@ -52,7 +52,7 @@ Skica webovej stránky (angl. web page wireframe) je zjednodušená vizuálna re
 * Ako budú informácie usporiadané?
   * položky v menu budú v tomto poradí: všehochuť.sk, Počítače a elektro...
 * Ako bude používateľ interagovať s rozhraním, aká je spätná väzba a ako sa správajú jednotlivé komponenty?
-  * vyhľadávanie – používateľ klikne myšou na vstupné pole, text „Sem napíšte hľadané slovo“ zmizne, používateľ napíše hľadaný výraz, vyhľadávanie potvrdí stlačením klávesu ENTER, ak klikne mimo pola, napísaný text zostane v poli (ak chceme/potrebuje ešte vyššiu podrobnosť, napr. kliknutím na vstupné pole sa toto rozšíri/zväčší sa jeho dĺžka)
+  * vyhľadávanie – používateľ klikne myšou na vstupné pole, text „Sem napíšte hľadané slovo“ zmizne, používateľ napíše hľadaný výraz, vyhľadávanie potvrdí stlačením klávesu ENTER, ak klikne mimo pola, napísaný text zostane v poli (ak chceme/potrebujeme ešte vyššiu podrobnosť, napr. kliknutím na vstupné pole sa toto rozšíri/zväčší sa jeho dĺžka)
 
 Pri vytváraní skice stránky skúšame rôzne vizuálne umiestnenia pre každý prvok. Sú určité návrhové úzusy/vzory (angl. user interface design patterns), ktoré je dobré dodržiavať, lebo sú na ne používatelia zvyknutí, napr. umiestnenie nákupného košíka - vpravo hore. Čo ak by sme ho umiestnili vľavo hore? ;-)
 
