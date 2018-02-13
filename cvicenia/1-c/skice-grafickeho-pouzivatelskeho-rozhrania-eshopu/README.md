@@ -36,11 +36,23 @@ To, čo musíme urobiť je popremýšľať nad našimi stránkami, určiť celko
 Pri návrhu pre zákazníka je dôležité sa čo najlepšie zoznámiť s produktom. Aj k tomu sú skice vynikajúcim prostriedkom.
 
 Skica webovej stránky (angl. web page wireframe) je zjednodušená vizuálna reprezentácia dizajnu/grafického používateľského rozhrania webovej stránky. Používa sa na odkomunikovanie týchto detailov: 
- * obsah (angl. content) - čo bude zobrazené na predmetnej stránke?
- * štruktúra (angl. structure) - ako budú jednotlivé prvky (informácie, komponenty rozhrania) rozmiestnené na danej stránke?
- * informačná hierarchia (angl. information hierarchy) - ako budú dané informácie usporiadané a ako (akou formou) zobrazené?
- * funkcionalita (angl. funcionality) - ako bude rozhranie fungovať?
- * správanie (angl. behaviour) - ako interaguje používateľ s rozhraním, aká je spätná väzba a ako sa správajú jednotlivé komponenty rozhrania?
+* Aké funkcie ma stránka obsahovať?
+  * výber produktov podľa kategórie, zobrazenie odporúčaných produktov, zobrazenie najnovších produktov, prihlásenie používateľa, zobrazenie košíka, ...
+* Čo bude zobrazené na predmetnej stránke? 
+  * menu s kategóriami produktov – položky: všehochuť.sk, Počítače a elektro ...
+  * výber najnovších produktov
+  * niekoľko odporúčaných produktov
+  * veľký reklamný banner
+  * vyhľadávanie v produktoch
+  * prihlásenie používateľa,
+  * logo
+  * ...
+* Akou formou budú informácie/komponenty zobrazené/prezentované a ako budú jednotlivé prvky/časti rozhrania rozmiestnené?
+  * menu s kategóriami bude vo vrchnej časti pod logom a vyhľadávaním, orientované horizontálne, zoznam kategórií
+* Ako budú informácie usporiadané?
+  * položky v menu budú v tomto poradí: všehochuť.sk, Počítače a elektro...
+* Ako bude používateľ interagovať s rozhraním, aká je spätná väzba a ako sa správajú jednotlivé komponenty?
+  * vyhľadávanie – používateľ klikne myšou na vstupné pole, text „Sem napíšte hľadané slovo zmizne“, používateľ napíše hľadaný výraz, stlačení klávesu ENTER, ak klikne mimo pola, napísaný text zostane v poli
 
 Pri vytváraní skice stránky skúšame rôzne vizuálne umiestnenia pre každý prvok. Sú určité návrhové úzusy/vzory (angl. user interface design patterns), ktoré je dobré dodržiavať, lebo sú na ne používatelia zvyknutí, napr. umiestnenie nákupného košíka - vpravo hore. Čo ak by sme ho umiestnili vľavo hore? ;-)
 
