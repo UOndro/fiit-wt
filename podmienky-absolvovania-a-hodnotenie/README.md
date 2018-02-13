@@ -25,7 +25,7 @@ Projekt je hodnotený max. 40 bodmi a vypracováva sa priebežne počas semestra
 * 5 bodov, 3. týždeň, vytvorenie skíc jednotlivých stránok pre 3 typy rozlíšení
 * 10 bodov (8 + 2 body), 6. týždeň, vytvorenie responzívnych šablón na základe vytvorených skíc/predloh (8 bodov); návrh dátového modelu a implementovaný relačný model (2 body)
 * 10 bodov, 8. týždeň, implementácia logiky eshopu (server-side rendering) s využitím PHP frameworku (odporúčaný Laravel) 
-* 15 bodov, 11/12. týždeň, implementácia chatu v reálnom čase a jeho integrácia do eshopu (vue.js + node.js) + finálna dokumentácia
+* 15 bodov, 11. týždeň, implementácia chatu v reálnom čase a jeho integrácia do eshopu (vue.js + node.js) + finálna dokumentácia
 
 
 Bez odovzdania v niektorom z kontrolných termínov, ktoré je cvičiacim akceptované a spĺňa minimálnu úroveň kvality, nie je možné odovzdať projekt v piatom - záverečnom termíne, a teda nebude možné získať zápočet.
