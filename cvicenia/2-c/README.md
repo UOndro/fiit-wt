@@ -296,7 +296,9 @@ Prehliadače ako Chrome a Firefox majú definované štýly, ktoré ilustrujú h
  
  ![W3C validátor označenie voľby - zobraziť na výstupe aj osnovu dokumentu](zdroje/w3c-validator-outlińe-check.jpg "W3C validátor označenie voľby - zobraziť na výstupe aj osnovu dokumentu")
  
- ![Ilustrácia osnovy dokumentu ako výstup z W3C validátora](zdroje/w3c-validator-outlińe-example.jpg"Ilustrácia osnovy dokumentu ako výstup z W3C validátora")
+ 
+ ![Ilustrácia osnovy dokumentu ako výstup z W3C validátora](zdroje/w3c-validator-outlińe-example.jpg "Ilustrácia osnovy dokumentu ako výstup z W3C validátora")
+ 
  
 
 ### Ako je to s viacerými nadpismi prvej úrovne v dokumente?
