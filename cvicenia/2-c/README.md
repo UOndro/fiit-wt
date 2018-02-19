@@ -304,7 +304,7 @@ Na jednej strane ide o rokmi zaužívanú konvenciu komunitou, na strane druhej 
 Vytvorte kostru HTML5 dokumentu.
 
 ### Príklad 2
-Ako vyzerá osnova tohto HTML dokumentu (zverstva)?
+Ako vyzerá osnova tohto HTML dokumentu ("zverstva")?
 
 ```
 <body>
@@ -371,7 +371,7 @@ Prerobte túto HTML štruktúru do správnej HTML5 štruktúry s použitím nov�
 
 
 ### Príklad 5
-Uvažujme blog s príspevkami (článkami, angl. blog post). HTML štruktúra mnohých blogov vyzerá aj v súčasnosti napr. takto:
+Uvažujte blog s príspevkami (článkami, angl. blog post). HTML štruktúra mnohých blogov vyzerá aj v súčasnosti napr. takto:
 
 ![alt text](zdroje/blog-layout.jpg "Ilustračné rozloženie sekcií stránky blogu")
 
