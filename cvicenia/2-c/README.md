@@ -291,15 +291,16 @@ Prehliadače ako Chrome a Firefox majú definované štýly, ktoré ilustrujú h
 
 [W3C validátor](https://validator.w3.org/nu/) umožňuje zobraziť na výstupe osnovu dokumentu, a to hneď na dvoch úrovniach:
  
- * heading-level outline - z pohľadu sémantiky nadpisov (aktuálna interpetácia osnovy prehliadačmi)  
+ * heading-level outline - z pohľadu sémantiky nadpisov (aktuálna interpetácia osnovy dokumentu prehliadačmi)  
  * structural outline - z pohľadu štruktúry tak, ako ju definuje HTML5 
  
  W3C validátor označenie voľby - zobraziť na výstupe aj osnovu dokumentu:
  
  ![W3C validátor označenie voľby - zobraziť na výstupe aj osnovu dokumentu](zdroje/w3c-validator-outline-check.jpg "W3C validátor označenie voľby - zobraziť na výstupe aj osnovu dokumentu")
+     
    
- 
  Ilustrácia osnovy dokumentu ako výstup z W3C validátora:
+ 
  ![Ilustrácia osnovy dokumentu ako výstup z W3C validátora](zdroje/w3c-validator-outline-example.jpg "Ilustrácia osnovy dokumentu ako výstup z W3C validátora")
  
  
