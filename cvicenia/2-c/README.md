@@ -18,12 +18,12 @@ Osnova dokumentu môže vyzerať napr. takto:
     3. ...
 3. ...
 
-Takýto zoznam môže používateľovi pomôcť ľahšie sa orientovať v štruktúre dokumentu, alebo môže byť analyzovaný syntaktickým analyzátorom (angl. parsers), ako napr. webový vyhľadávač, ktorý ho použije na indexovanie dokumentu - za účelom zlepšenia (relevancie) výsledkov vyhľadávania.
+Takýto zoznam môže používateľovi pomôcť ľahšie sa orientovať v štruktúre dokumentu, alebo môže byť analyzovaný syntaktickým analyzátorom (angl. parser), ako napr. webový vyhľadávač, ktorý ho použije na indexovanie dokumentu - za účelom zlepšenia (relevancie) výsledkov vyhľadávania.
 
 **Algoritmus tvorby osnovy HTML5 dokumentu je jasne definovaný v [HTML5 špecifikácii](http://w3c.github.io/html/sections.html#outlines).**
 
 ### Osnova dokumentu v HTML4
-Vytvorenie osnovy dokumentu v HTML4 je jednoduché. Máme k dispozícii šesť úrovní nadpisov `<h1>` až `<h6>`, kde hlavný nadpis bol `<h1>`, podnadpis `<h2>`, atď. 
+Vytvorenie osnovy dokumentu v HTML4 je jednoduché. Máme k dispozícii šesť úrovní nadpisov `<h1>` až `<h6>`, kde hlavný nadpis je `<h1>`, podnadpis `<h2>`, atď. 
 
 Napríklad, takáto štruktúra HTML4 dokumentu:
 ```html
