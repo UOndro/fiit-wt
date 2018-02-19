@@ -250,7 +250,7 @@ Toto nie je zrovna osnova, ktorú by sme očakávali rýchlym pohľadom na danú
     </section>
     <h2>Nadpis H</h2>
     <h2>Nadpis I</h2>
-    <section
+    <section>
         <h3>Nadpis J</h3>
     </section>
 </section>
@@ -285,10 +285,19 @@ Klientské aplikácie - prehliadače - však interpretujú osnovu takto:
 2. Nadpis B
 3. Nadpis C
 	
-Je to z dôvodu, že [prehliadače sa držia sémantiky nadpisov](https://www.w3.org/wiki/HTML/Usage/Headings/h1only), a teda dôležitá je úroveň nadpisu. Keďže k implementácii sémantiky osnovy dosiaľ nedošlo a je otázna budúcnosť, W3C už v špecifikácii 5.1 odporúča, aby vývojári používali nadpisy na vyjadrenie štruktúry v dokumentoch, inými slovami, aby vnorenie sekcií, resp. úrovne nadpisov v sekciách reflektovalo hierarchiu ich vnorenia (ako ilustrujem na [predchádzajúcom príklade](#spravna-osnova)).
+Je to z dôvodu, že [prehliadače sa držia sémantiky nadpisov](https://www.w3.org/wiki/HTML/Usage/Headings/h1only), a teda dôležitá je úroveň nadpisu. Keďže k implementácii sémantiky osnovy dosiaľ nedošlo a je otázna budúcnosť, W3C v špecifikácii 5. už odporúča, aby vývojári používali (naďalej) nadpisy na vyjadrenie štruktúry v dokumentoch, inými slovami, aby vnorenie sekcií, resp. úrovne nadpisov v sekciách reflektovali hierarchiu ich vnorenia (ako ilustrujem na [predchádzajúcom príklade](#spravna-osnova)).
 
 Prehliadače ako Chrome a Firefox majú definované štýly, ktoré ilustrujú hierarchiu  - [vyskúšajte príklad](http://jsbin.com/ijixib). Aktuálne, ako som písal, okrem štýlov nie je v prehliadačoch implementovaná sémantika osnovy dokumentu. [Vyskúšajte rozšírenie do prehliadača na extrakciu osnovy z HTML stránky](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo).
 
+[W3C validátor](https://validator.w3.org/nu/) umožňuje zobraziť na výstupe osnovu dokumentu, a to hneď na dvoch úrovniach:
+ 
+ * heading-level outline - z pohľadu sémantiky nadpisov (aktuálna interpetácia osnovy prehliadačmi)  
+ * structural outline - z pohľadu štruktúry tak, ako ju definuje HTML5 
+ 
+ ![W3C validátor označenie voľby - zobraziť na výstupe aj osnovu dokumentu](zdroje/w3c-validator-outlińe-check.jpg "W3C validátor označenie voľby - zobraziť na výstupe aj osnovu dokumentu")
+ 
+ ![Ilustrácia osnovy dokumentu ako výstup z W3C validátora](zdroje/w3c-validator-outlińe-example.jpg"Ilustrácia osnovy dokumentu ako výstup z W3C validátora")
+ 
 
 ### Ako je to s viacerými nadpismi prvej úrovne v dokumente?
 [W3C validátor upozorňuje](https://www.w3.org/wiki/HTML/Usage/Headings/h1only), že v HTML dokumente by mal byť maximálne jeden nadpis prvej úrovne `<h1>` (je unikátny pre celú stránku/dokument).
@@ -373,7 +382,7 @@ Prerobte túto HTML štruktúru do správnej HTML5 štruktúry s použitím nov�
 ### Príklad 5
 Uvažujte blog s príspevkami (článkami, angl. blog post). HTML štruktúra mnohých blogov vyzerá aj v súčasnosti napr. takto:
 
-![alt text](zdroje/blog-layout.jpg "Ilustračné rozloženie sekcií stránky blogu")
+![Ilustračné rozloženie sekcií stránky blogu](zdroje/blog-layout.jpg "Ilustračné rozloženie sekcií stránky blogu")
 
 
 Inšpirujte sa týmto rozložením stránky (angl. page layout) a vytvorte HTML5 štruktúru s použitím nových elementov.
@@ -381,6 +390,6 @@ Inšpirujte sa týmto rozložením stránky (angl. page layout) a vytvorte HTML5
    
  Anatómiu príspevku blogu (post) ilustruje tento obrázok:
 
-![alt text](zdroje/blog-post-anatomy.jpg "Anatómia príspevku blogu")
+![Anatómia príspevku blogu](zdroje/blog-post-anatomy.jpg "Anatómia príspevku blogu")
 
 
