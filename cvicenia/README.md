@@ -6,6 +6,7 @@
 2. [Vývojové prostredie PhpStorm](1-c/vyvojove-prostredie-phpstorm)
 
 **Cvičenie 2 (20.2.)**
+1. [HTML5 - Osnova dokumentu](2-c)
 
 **Cvičenie 3 (27.2.)**
 

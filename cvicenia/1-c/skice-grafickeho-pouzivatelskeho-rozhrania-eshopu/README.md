@@ -35,7 +35,7 @@ Predtým ako začneme "patlať" niečo v Adobe Photoshop alebo v nejakom inom gr
 To, čo musíme urobiť je popremýšľať nad našimi stránkami, určiť celkové usporiadanie/hierarchiu každej stránky (angl. page layout), identifikovať aké prvky potrebujeme (chceme), nájsť im miesto, experimentovať s ich veľkosťou, dôrazom/dôležitosťou.
 Pri návrhu pre zákazníka je dôležité sa čo najlepšie zoznámiť s produktom. Aj k tomu sú skice vynikajúcim prostriedkom.
 
-Skica webovej stránky (angl. web page wireframe) je zjednodušená vizuálna reprezentácia dizajnu/grafického používateľského rozhrania webovej stránky. Používa sa na odkomunikovanie týchto detailov: 
+Skica webovej stránky (angl. web page wireframe) je zjednodušená vizuálna reprezentácia dizajnu/grafického používateľského rozhrania webovej stránky. Používa sa na odkomunikovanie týchto detailov (uvedené príklady reflektujú [tento návrh](zdroje/vsehochut-eshop-priklad.pdf)):
 * **Aké funkcie má stránka obsahovať?**
   * výber produktov podľa kategórie, zobrazenie odporúčaných produktov, zobrazenie najnovších produktov, prihlásenie používateľa, zobrazenie košíka, ...
 * **Čo bude zobrazené na predmetnej stránke?**
@@ -79,7 +79,7 @@ Pamätajme, prechod/tok používateľa/nášho zákazníka webom (angl. user flo
 Farba je mocný nástroj, ale vo fáze vytvárania skíc môže byť rušivá/kontrakproduktívna. Preferujme stupne šedej (angl. grayscale), šedá je neutrálna. Ak potrebujeme používať farbu, používajme ju dômyselne. V diskusii (s klientom) môže nesprávny výber farby spôsobiť, že namiesto podstaty a o návrhových rozhodnutiach budeme hovoriť a farebnej palete, ktorú preferuje klient (klient môže považovať celý návrh za zlý, a to "iba" kvôli farbám). Celé spektrum šedej nám umožňuje dávať (často dostatočne) rôznym prvkom rôznu dôležitosť/akcent (tmavo-šedá upúta skôr pozornosť ako svetlo-šedá). Tým, že zadefinujeme prvkom dôležitosť určujeme tok používateľa (jeho smerovanie pohľadu) po stránke. Tento tok by mal reflektovať naše/zákazníkové očakávania/požiadavky - biznis ciele, [konverzie](https://en.wikipedia.org/wiki/Conversion_rate_optimization). Použitie rôznych stupňov šedej nám/grafikovi tiež uľahčí vytváranie výslednej podoby dizajnu stránky.
 
 ### 2. Konzistencia
-Skice sú nástrojom, ktorý nám má pomôcť proces vývoja uľahčiť. Ak budú mať podobné prvky podobný vzhľad a funkciu, potom si ľudia/používatelia ľahšie prenesú poznatky do nových kontextov a rýchlejšie sa naučia nové veci, pochopia im. Používajme rovnaký jazyk, šablóny, (zaužívané) vzory a komponenty správne. Ak budeme [konzistentní](https://uxdesign.cc/design-principle-consistency-6b0cf7e7339f), vyhneme sa aj odvracaniu pozornosti od dôležitých aspektov. Buďme konzistentní, ale nie jednotvárni a nudní. Existujúce nástroje nás v tomto podporujú. 
+Skice sú nástrojom, ktorý nám má pomôcť proces vývoja uľahčiť. Ak budú mať podobné prvky podobný vzhľad a funkciu, potom si ľudia/používatelia ľahšie prenesú poznatky do nových kontextov a rýchlejšie sa naučia nové veci, pochopia im. Používajme rovnaký jazyk, šablóny, (zaužívané) vzory a komponenty správne. Ak budeme [konzistentní](https://uxdesign.cc/design-principle-consistency-6b0cf7e7339f), vyhneme sa aj odvracaniu pozornosti od dôležitých aspektov. Buďme konzistentní, ale nie jednotvárni a nudní. Existujúce nástroje určené na formovanie konceptov webových stránok/prototypovanie nás podporujú v konzistencii.
 
 ### 3. Reálny obsah
 Ak nemáme textový obsah, napíšme/požadujme ho. Písanie [cieleného/vhodného/trefného textu](https://www.fastcodesign.com/3026463/from-google-ventures-5-rules-for-writing-great-interface-copy) si vyžaduje skúsenosti - existujú na to profesionálne agentúry, [copywriter](https://en.wikipedia.org/wiki/Copywriting) je povolanie. V začiatkoch  text nemusí byť perfektný. 
@@ -101,7 +101,7 @@ Realističnosť tiež môžeme podporiť obrázkami, pozadím, textúrou, avatar
 
 Návrh, reprezentovaný ako skica môže byť tiež klikateľný. Nie je to už v pravom slova zmysle skica, aj keď tak čo sa vizuálneho stvárnenia vyzerá. Mnohé nástroje umožňujú vytvoriť "interaktívne skice". Môžeme tak ilustrovať základné správanie rozhrania, napr.  vyskakovacie/modálne/dialogové okná, rozšírenie alebo zväčšenie obsahu, rôzné gestá ako kliknutie, posunutie (angl. scrolling, swiping). Nemali by sme však začínať interaktívnymi prototypmi.
 
-Keď máme k dispozícii iba ceruzku a papier, máme k dispozícii jednu farbu a písmo, do momentu, keď sa rozhodneme siahnúť po hrubšiu ceruzku (s inou farbou). Prototypovacie nástroje tiež limitujú naše možnosti - hrúbku čiary, farby, typy písma. Zatiaľ čo [Balsamiq](https://balsamiq.com) je v tomto významne limitujúci, [Axure](https://www.axure.com/) poskytuje významne viac flexibility. Nezabúdajme, niekedy, je menej viac. Aj kvôli tomu, že mnohé nástroje umožňujú vytvárať ako skice, tak aj prototypy, a kombinovať ich, [pojmy wireframe - mockup - prototype sú často používané nesprávne](#vs-wireframe-mockup-prototype). 
+Keď máme k dispozícii iba ceruzku a papier, máme k dispozícii jednu farbu a písmo, do momentu, keď sa rozhodneme siahnúť po hrubšiu ceruzku (s inou farbou). Prototypovacie nástroje tiež limitujú naše možnosti - hrúbku čiary, farby, typy písma. Zatiaľ čo [Balsamiq](https://balsamiq.com) je v tomto významne limitujúci, [Axure](https://www.axure.com/) poskytuje významne viac flexibility. Nezabúdajme, niekedy, je menej viac. Aj kvôli tomu, že mnohé nástroje umožňujú vytvárať ako skice, tak aj prototypy, a kombinovať ich, [pojmy - wireframe, mockup, prototype - sú často používané nesprávne](#vs-wireframe-mockup-prototype).
 
 ### 7. Nevytvárajme si vzťah ku skicám
 Nie sú to očarujúce umelecké diela. Skicovanie je prostriedok na rýchle formovanie nápadov, protypovanie v počiatočných fázach vývoja. Musíme byť ochotní zaoberať sa zmenami vyplyvajúcimi z diskusie a požiadaviek. Buďme variabilní a otvorení zmenám.
@@ -116,40 +116,40 @@ Aj skice už vytvárajme s ohľadom na ekosystém. Nie je dobré miešať hrušk
  ## <a name="vs-wireframe-mockup-prototype"></a>Wireframe vs. Mockup vs. Prototype
  
  ### Wireframe (skica)
- Je reprezentácia návrhu/dizajnu (používateľského rozhrania) s nízkou vernosťou (angl. low fidelity representation). Mala by jasne ukazovať:
+ Je reprezentácia návrhu/dizajnu (používateľského rozhrania) s nízkou vernosťou podrobností (angl. low fidelity representation). Mala by jasne ukazovať:
  * ČO? - hlavný obsah/skupiny obsahu
  * KDE? - štruktúra informácií
  * AKO? - opis a základná vizualizácia interakcie používateľského rozhrania
  
  Mala by zobrazovať/ilustrovať každý dôležitý prvok konečného produktu. Mala by byť vytvorená rýchlo a čas by mal byť vyhradený/využitý prevažne na komunikáciu (v tíme, so zákazníkom).
  
- * Podrobnosť: nízka vernosť (angl. low fidelity)
+ * Podrobnosť: nízka presnosť (angl. low fidelity)
  * Cena: €
  * Použitie: dokumentácia, rýchla komunikácia, názory, overenie základného toku
  * Charakteristika: náčrt, reprezentácia čierno-biela/v stupnici šedej  
   
  ### Mockup (skoro/realistická maketa dizajnu)
- Je reprezentácia návrhu/dizajnu (používateľského rozhrania) so strednou až vysokou vernosťou (angl. middle to high fidelity representation). Veľmi často je výstupom realistický - skutočný vizuálny dizajn, alebo takmer realistický vizuálny dizajnový koncept. Mal by:
- 
+ Je reprezentácia návrhu/dizajnu (používateľského rozhrania) so strednou až vysokou vernosťou podrobností (angl. middle to high fidelity representation). Veľmi často je výstupom realistický - skutočný vizuálny dizajn, alebo takmer realistický vizuálny dizajnový koncept. Mal by:
+ #
  * reprezentovať štruktúru informácií, vizualizovať obsah a demonštrovať základnú funkcionalitu statickou formou (obrazovky)
  * stvárnenie všetkých prvkov by malo umožniť ľuďom posúdiť vizuálnu stránku projektu
  
- * Podrobnosť: stredná až vysoká vernosť (angl. middle to high fidelity)
+ * Podrobnosť: stredná až vysoká presnosť (angl. middle to high fidelity)
  * Cena: €€
  * Použitie: na získanie názoru/spätnej väzby od zainteresovaných strán
  * Charakteristika: statická (skoro)realistická vizualizácia
   
   
   ### Prototype (interaktívny prototyp)
-  Je interaktívna reprezentácia finálneho produktu (používateľského rozhrania) so strednou až vysokou vernosťou (angl. middle to high fidelity representation]). Mal by umožniť používateľovi:
+  Je interaktívna reprezentácia finálneho produktu (používateľského rozhrania) so strednou až vysokou vernosťou podrobností (angl. middle to high fidelity representation]). Mal by umožniť používateľovi:
   
   * "zažiť" obsah a interagovať s rozhraním
   * testovať hlavné interakcie veľmi podobne až rovnako ako v konečnom produkte
   
-  * Podrobnosť: stredná až vysoká vernosť (angl. middle to high fidelity)
+  * Podrobnosť: stredná až vysoká presnosť (angl. middle to high fidelity)
   * Cena: €€€
   * Použitie: testovanie používateľov - použiteľnosť, znovupoužiteľný základ rozhrania 
-  * Charakteristika: interaktívny (skoro) realistický prototyp
+  * Charakteristika: interaktívny (skoro) realistický prototyp (nie je potrebná implementácia "backendu")
    
    
  ## Literatúra
@@ -176,3 +176,15 @@ Aj skice už vytvárajme s ohľadom na ekosystém. Nie je dobré miešať hrušk
  * [UI Patterns](http://ui-patterns.com/patterns) - veľa UI dizajnových vzorov
  * [pttrns](https://pttrns.com/) - veľa UI dizajnových vzorov pre mobily
  * [John Ferris - Layout Design Patterns](http://pixelwhip.github.io/layout-design-patterns/#/title-slide)
+
+ ## Slovník, preklad anglických pojmov
+ * webpage - webová stránka, konkrétny dokument (HTML)
+ * website - webové stránky, kolekcia tématicky príbuzných webových stránok
+ * web application - webová aplikácia, aplikácia typu klient-server, kde klient beží vo webovom prehliadači
+ * low fidelity representation (graphical user interface) - reprezentácia s nízkou vernosťou/presnosťou podrobností grafického používateľského rozhrania (nízkoúrovňová reprezentácia)
+ * high fidelity representation - reprezentácia s vysokou vernosťou/presnosťou podrobností (vysokoúrovňová reprezentácia)
+ * wireframe - skica používateľského rozhrania
+ * mockup - realistická maketa dizajnu používateľského rozhrania
+ * prototype - interaktívny prototyp používateľského rozhrania
+ * frontend - prezentačná vrstva/používateľské rozhranie (na strane klienta)
+ * backend - dátová, príp. logická vrstva (na strane servera)
