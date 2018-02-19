@@ -258,7 +258,7 @@ Toto nie je zrovna osnova, ktorú by sme očakávali rýchlym pohľadom na danú
 ```
 
 ## Aktuálna podpora
-Nie je to ale iba o tom. explicitné sekcie ano, ale ... Ani po niekoľkých rokoch, čo bola špecifikácia HTML5 uvedená ako odporúčanie, nie je v prehliadačoch (klientských aplikáciách) implementovaná sémantika osnovy dokumentu. Čo to znamená? 
+Nie je to ale iba o tom. explicitné sekcie áno, ale ... ani po niekoľkých rokoch, čo bola špecifikácia HTML5 uvedená ako odporúčanie, nie je v prehliadačoch (klientských aplikáciách) implementovaná sémantika osnovy dokumentu. Čo to znamená? 
 
 Uvažujme tento príklad:
 
