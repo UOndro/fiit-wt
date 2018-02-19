@@ -213,7 +213,7 @@ Zhrňme si to na tomto príklade, otváranie sekcií ilustrujem komentármi:
 </body>
 ```
 
-Ako bude vyzerať osnova dokumentu?:
+Ako bude vyzerať osnova dokumentu?
 
 1. Nadpis A
     1. Nadpis B
