@@ -285,7 +285,7 @@ Klientské aplikácie - prehliadače - ale interpretujú osnovu takto:
 2. Nadpis B
 3. Nadpis C
 	
-Je to z dôvodu, že [prehliadače sa držia sémantiky nadpisov](https://www.w3.org/wiki/HTML/Usage/Headings/h1only), a teda dôležitá je úroveň nadpisu. Keďže k implementácii sémantiky osnovy dosiaľ nedošlo a budúcnosť je otázna, W3C v špecifikácii 5.1 už odporúča, aby vývojári používali (naďalej) nadpisy na vyjadrenie štruktúry v dokumentoch, inými slovami, aby vnorenie sekcií, resp. úrovne nadpisov v sekciách reflektovali hierarchiu ich vnorenia (ako ilustrujem na [predchádzajúcom príklade](#spravna-osnova)).
+Je to z dôvodu, že [prehliadače sa držia sémantiky nadpisov](https://www.w3.org/wiki/HTML/Usage/Headings/h1only), a teda dôležitá je úroveň nadpisu (``<h1>`` až ``<h6>``). Keďže k implementácii sémantiky osnovy dosiaľ nedošlo a budúcnosť je otázna, W3C v špecifikácii 5.1 už odporúča, aby vývojári používali (naďalej) nadpisy na vyjadrenie štruktúry v dokumentoch, inými slovami, aby vnorenie sekcií, resp. úrovne nadpisov v sekciách reflektovali hierarchiu ich vnorenia (ako ilustrujem na [predchádzajúcom príklade](#spravna-osnova)).
 
 Prehliadače ako Chrome a Firefox majú definované štýly, ktoré ilustrujú hierarchiu  - [vyskúšajte príklad](http://jsbin.com/ijixib). Aktuálne, ako som písal, okrem štýlov nie je v prehliadačoch implementovaná sémantika osnovy dokumentu. [Vyskúšajte rozšírenie do prehliadača na extrakciu osnovy z HTML stránky](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo).
 
@@ -376,7 +376,7 @@ Prerobte túto HTML štruktúru do správnej HTML5 štruktúry s použitím nov�
     <!-- page content -->
   </section>
   <section id="secondary">
-    <!-- secondary sidebar content -->
+    <!-- secondary sidebar - related content -->
   </section>
   <footer>
     <!-- footer content -->
