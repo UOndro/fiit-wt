@@ -377,6 +377,8 @@ Uvažujme blog s príspevkami (článkami, angl. blog post). HTML štruktúra mn
 
 
 Inšpirujte sa týmto rozložením stránky (angl. page layout) a vytvorte HTML5 štruktúru s použitím nových elementov.
+   
+   
  Anatómiu príspevku blogu (post) ilustruje tento obrázok:
 
 ![alt text](zdroje/blog-post-anatomy.jpg "Anatómia príspevku blogu")
