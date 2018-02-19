@@ -100,7 +100,7 @@ Po tejto úprave dostaneme pôvodnú osnovu dokumentu:
     3. Pohybové hry v telesnej a športovej výchove
         1. Pohybové hry v module zdravie a jeho poruchy
         
-Prečo? Rozdeľujúce elementy plnia svoju funkciu doslovne - ako naznačuje ich názov - definujú rozdelenie rodičovského elementu do oblastí/sekcií. Vytvorené sekcie môžeme potom považovať za potomkov, ktorých nadpisy spadajú pod nadpis rodiča, bez ohľadu na úroveň nadpisu. 
+Prečo? Rozdeľujúce elementy plnia svoju funkciu doslovne - ako naznačuje ich názov - definujú rozdelenie rodičovského elementu do sekcií - každý rozdeľujúci element vytvára novú sekciu. Každá sekcia by mala mať svoj nadpis. Vytvorené sekcie môžeme potom považovať za potomkov, ktorých nadpisy spadajú pod nadpis rodiča, bez ohľadu na úroveň nadpisu. 
 
 Ilustrujme si to na tomto príklade: 
 
@@ -122,14 +122,14 @@ Napriek tomu, že elementy `<article>` obsahujú element `<h1>`, dostaneme túto
     1. Charakteristika pohybových a športových hier
     2. Systematika pohybových hier
 
-V podstate, nezáleží na tom, či sme použili v elementoch `<article>` nadpisy  `<h1>`, kludne sme si mohli hodiť kockou a použiť  nadpisy  `<h2>`, pričom osnova by bola rovnaká. Je to z dôvodu, že rozdeľujúce elementy vytvárajú nové oblasti/sekcie. Celé je to o tom, aké vnorenie sekcií vytvoríme - tie určujú základ pre osnovu dokumentu. Túto koncepciu označujeme ako **explicitné rozdeľovanie**.
+Vo vyššie uvedenom príklade sa nachádzajú samé nadpisy `<h1>`, ale na úrovni nadpisov tak nezáleží. Kludne sme si mohli hodiť kockou a použiť nadpisy  `<h2>`, pričom osnova by bola rovnaká. Je to z dôvodu, že rozdeľujúce elementy vytvárajú nové sekcie (oblasti) - celé je to o tom, aké vnorenie sekcií vytvoríme - tie určujú základ pre osnovu dokumentu. Túto koncepciu označujeme ako **explicitné rozdeľovanie**.
   
 V uvedenom príklade som bol ľahkovážny. Samozrejme, úrovne nadpisov by sme mali používať hierarchicky, aby bola zachovaná spätná kompatibilita a uľahčili sme ich štýlovanie. Účelom bolo ráznejšie ilustrovať postavenie sekcií.
 
-### Implicitné oblasti/sekcie
+### Implicitné sekcie
 Vzhľadom na to, že rozdeľujúce elementy jazyka HTML5 nie sú povinné na definovanie osnovy dokumentu, existuje spôsob ako definovať sekcie bez nich (na zachovanie kompatibility s existujúcim webom, na ktorom dominujú HTML dokumenty bez rozdeľujúcich elementov).
 
-Nadpisy `<h1>` až `<h6>` definujú novú implicitnú oblasť/sekciu, ak nie sú prvým nadpisom ich rodiča explicitnej sekcie. Umiestnenie implicitnej sekcie v osnove je určené podľa jej úrovne nadpisu a úrovne predchádzajúceho nadpisu. 
+Nadpisy `<h1>` až `<h6>` definujú novú implicitnú sekciu, ak nie sú prvým nadpisom ich rodiča explicitnej sekcie. Umiestnenie implicitnej sekcie v osnove je určené podľa jej úrovne nadpisu a úrovne predchádzajúceho nadpisu. 
 
 Ak je úroveň nadpisu nižšia, ako úroveň predchádzajúceho nadpisu, potom je v aktuálnej (implicitnej) sekcii vytvorená nová implicitná podsekcia:
 
@@ -155,7 +155,7 @@ Ak je úroveň nadpisu rovnaká, ako úroveň predchádzajúceho nadpisu, potom 
 <section>
   <h1>Slon africký</h1>  
   <p>...</p>
-  <!-- nasledujúca sekcia je implicitná podsekcia -->
+  <!-- nasledujúca sekcia je nová implicitná sekcia -->
   <h1>Slon indický</h1>
   <p>...</p>
 </section>
@@ -280,12 +280,12 @@ Osnova dokumentu je takáto:
     1. Nadpis B
 		1. Nadpis C
 		
-Klientské aplikácie - prehliadače - však interpretujú osnovu takto:	
+Klientské aplikácie - prehliadače - ale interpretujú osnovu takto:	
 1. Nadpis A
 2. Nadpis B
 3. Nadpis C
 	
-Je to z dôvodu, že [prehliadače sa držia sémantiky nadpisov](https://www.w3.org/wiki/HTML/Usage/Headings/h1only), a teda dôležitá je úroveň nadpisu. Keďže k implementácii sémantiky osnovy dosiaľ nedošlo a je otázna budúcnosť, W3C v špecifikácii 5. už odporúča, aby vývojári používali (naďalej) nadpisy na vyjadrenie štruktúry v dokumentoch, inými slovami, aby vnorenie sekcií, resp. úrovne nadpisov v sekciách reflektovali hierarchiu ich vnorenia (ako ilustrujem na [predchádzajúcom príklade](#spravna-osnova)).
+Je to z dôvodu, že [prehliadače sa držia sémantiky nadpisov](https://www.w3.org/wiki/HTML/Usage/Headings/h1only), a teda dôležitá je úroveň nadpisu. Keďže k implementácii sémantiky osnovy dosiaľ nedošlo a budúcnosť je otázna, W3C v špecifikácii 5. už odporúča, aby vývojári používali (naďalej) nadpisy na vyjadrenie štruktúry v dokumentoch, inými slovami, aby vnorenie sekcií, resp. úrovne nadpisov v sekciách reflektovali hierarchiu ich vnorenia (ako ilustrujem na [predchádzajúcom príklade](#spravna-osnova)).
 
 Prehliadače ako Chrome a Firefox majú definované štýly, ktoré ilustrujú hierarchiu  - [vyskúšajte príklad](http://jsbin.com/ijixib). Aktuálne, ako som písal, okrem štýlov nie je v prehliadačoch implementovaná sémantika osnovy dokumentu. [Vyskúšajte rozšírenie do prehliadača na extrakciu osnovy z HTML stránky](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo).
 
