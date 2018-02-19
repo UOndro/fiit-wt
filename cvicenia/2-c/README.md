@@ -294,10 +294,10 @@ Prehliadače ako Chrome a Firefox majú definované štýly, ktoré ilustrujú h
  * heading-level outline - z pohľadu sémantiky nadpisov (aktuálna interpetácia osnovy prehliadačmi)  
  * structural outline - z pohľadu štruktúry tak, ako ju definuje HTML5 
  
- ![W3C validátor označenie voľby - zobraziť na výstupe aj osnovu dokumentu](zdroje/w3c-validator-outlińe-check.jpg "W3C validátor označenie voľby - zobraziť na výstupe aj osnovu dokumentu")
+ ![W3C validátor označenie voľby - zobraziť na výstupe aj osnovu dokumentu](zdroje/w3c-validator-outline-check.jpg "W3C validátor označenie voľby - zobraziť na výstupe aj osnovu dokumentu")
  
  
- ![Ilustrácia osnovy dokumentu ako výstup z W3C validátora](zdroje/w3c-validator-outlińe-example.jpg "Ilustrácia osnovy dokumentu ako výstup z W3C validátora")
+ ![Ilustrácia osnovy dokumentu ako výstup z W3C validátora](zdroje/w3c-validator-outline-example.jpg "Ilustrácia osnovy dokumentu ako výstup z W3C validátora")
  
  
 
