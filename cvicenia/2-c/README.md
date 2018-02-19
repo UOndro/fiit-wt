@@ -307,7 +307,7 @@ Prehliadače ako Chrome a Firefox majú definované štýly, ktoré ilustrujú h
 
 ### Ako je to s viacerými nadpismi prvej úrovne v dokumente?
 [W3C validátor upozorňuje](https://www.w3.org/wiki/HTML/Usage/Headings/h1only), že v HTML dokumente by mal byť maximálne jeden nadpis prvej úrovne `<h1>` (je unikátny pre celú stránku/dokument).
-Na jednej strane ide o rokmi zaužívanú konvenciu komunitou, na strane druhej platí, čo som písal, a teda na vyjadrenie štruktúry HTML dokumentov prehliadače používajú úroveň nadpisov naďalej. [Inžinier z Google hovorí, používajme viacnásobné `<h1>` elementy, ak je na to dôvod](https://www.youtube.com/watch?v=GIn5qJKU8VM). 
+Na jednej strane ide o rokmi zaužívanú konvenciu komunitou, na strane druhej platí, čo som písal, a teda na vyjadrenie štruktúry HTML dokumentov prehliadače používajú naďalej úroveň nadpisov. [Inžinier z Google hovorí, používajme viacnásobné `<h1>` elementy, ak je na to dôvod](https://www.youtube.com/watch?v=GIn5qJKU8VM). 
 
 ## Literatúra
  * [Using HTML sections and outlines](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines)
