@@ -3,7 +3,7 @@
 ## Osnova dokumentu
 Osnova dokumentu (angl. document outline) je rozvrhnutie/štruktúra dokumentu vytvorená pomocou orientačných bodov (angl. landmarks), akými sú napr. nadpisy, názvy formulárov, tabuliek. Klientská aplikácia (angl. user agent, napr. webový prehliadač) môže použiť tieto informácie na vytvorenie obsahu - zoznamu kapitol a podkapitol (angl. TOC - table of contents).
 
-Osnova dokumentu môže vyzerať napr. takto:
+Osnova dokumentu môže vyzerať, napr. takto:
 
 1. Teória pohybových hier
     1. Charakteristika pohybových a športových hier
@@ -291,7 +291,7 @@ Prehliadače ako Chrome a Firefox majú definované štýly, ktoré ilustrujú h
 
 [W3C validátor](https://validator.w3.org/nu/) umožňuje zobraziť na výstupe osnovu dokumentu, a to hneď na dvoch úrovniach:
  
- * heading-level outline - z pohľadu sémantiky nadpisov (aktuálna interpetácia osnovy dokumentu prehliadačmi)  
+ * heading-level outline - z pohľadu sémantiky nadpisov (aktuálna interpretácia osnovy dokumentu prehliadačmi)  
  * structural outline - z pohľadu štruktúry tak, ako ju definuje HTML5 
  
  W3C validátor označenie voľby - zobraziť na výstupe aj osnovu dokumentu:
