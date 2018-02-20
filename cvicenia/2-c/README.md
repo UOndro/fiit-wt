@@ -318,8 +318,8 @@ Na jednej strane ide o rokmi zaužívanú konvenciu komunitou, na strane druhej 
 ## Literatúra
  * [Using HTML sections and outlines](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines)
  
-
-<a name="c2-priklady"></a>## Príklady na precvičenie
+<a name="c2-priklady"></a>
+## Príklady na precvičenie
 
 ### Príklad 1
 Vytvorte kostru HTML5 dokumentu.
