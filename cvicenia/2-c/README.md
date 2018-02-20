@@ -53,13 +53,13 @@ Rozdeľujúce elementy `<section>`, `<article>`, `<aside>`, `<nav>` môžu pomô
 
 ```html
 <h1>Teória pohybových hier</h1>
-<h1>Charakteristika pohybových a športových hier</h3>
+<h1>Charakteristika pohybových a športových hier</h1>
 <p>V tejto podkapitole identifikujeme ...</p>
-<h1>Systematika pohybových hier</h3>
+<h1>Systematika pohybových hier</h1>
 <p>...</p>
-<h1>Pohybové hry v telesnej a športovej výchove</h3>
+<h1>Pohybové hry v telesnej a športovej výchove</h1>
 <p>...</p>
-<h1>Pohybové hry v module zdravie a jeho poruchy</h4>
+<h1>Pohybové hry v module zdravie a jeho poruchy</h1>
 <p>...</p>
 ```
 
