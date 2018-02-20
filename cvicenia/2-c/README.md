@@ -1,7 +1,7 @@
 # Cvičenie 2 - HTML5
 
 ## Osnova dokumentu
-Osnova dokumentu (angl. document outline) je rozvrhnutie/štruktúra dokumentu vytvorená pomocou orientačných bodov (angl. landmarks), akými sú napr. nadpisy, názvy formulárov, tabuliek. Klientská aplikácia (angl. user agent, napr. webový prehliadač) môže použiť tieto informácie na vytvorenie obsahu - zoznamu kapitol a podkapitol (angl. TOC - table of contents).
+Osnova dokumentu (angl. document outline) je rozvrhnutie/štruktúra dokumentu vytvorená pomocou orientačných bodov (angl. landmarks), akými sú,  napr. nadpisy, názvy formulárov, tabuliek. Klientská aplikácia (angl. user agent, napr. webový prehliadač) môže použiť tieto informácie na vytvorenie obsahu - zoznamu kapitol a podkapitol (angl. TOC - table of contents).
 
 Osnova dokumentu môže vyzerať, napr. takto:
 
@@ -392,7 +392,7 @@ Prerobte túto HTML štruktúru do správnej HTML5 štruktúry s použitím nov�
 
 
 ### Príklad 5
-Uvažujte blog s príspevkami (článkami, angl. blog post). HTML štruktúra mnohých blogov vyzerá aj v súčasnosti napr. takto:
+Uvažujte blog s príspevkami (článkami, angl. blog post). HTML štruktúra mnohých blogov vyzerá aj v súčasnosti, napr. takto:
 
 ![Ilustračné rozloženie sekcií stránky blogu](zdroje/blog-layout.jpg "Ilustračné rozloženie sekcií stránky blogu")
 
