@@ -315,6 +315,60 @@ Prehliadače ako Chrome a Firefox majú definované štýly, ktoré ilustrujú h
 [W3C validátor upozorňuje](https://www.w3.org/wiki/HTML/Usage/Headings/h1only), že v HTML dokumente by mal byť maximálne jeden nadpis prvej úrovne `<h1>` (je unikátny pre celú stránku/dokument).
 Na jednej strane ide o rokmi zaužívanú konvenciu komunitou, na strane druhej platí, čo som písal, a teda na vyjadrenie štruktúry HTML dokumentov prehliadače používajú naďalej úroveň nadpisov. [Inžinier z Google hovorí, používajme viacnásobné `<h1>` elementy, ak je na to dôvod](https://www.youtube.com/watch?v=GIn5qJKU8VM). 
 
+
+### Záver
+Vzhľadom na súčasný stav, odporúčam používať úrovne nadpisov na vyjadrenie štruktúry v dokumentoch v kombinácii s rozdeľujúcimi elementami (napr. ``<section>``, ``<article>``) tak, že každá sekcia bude mať svoj nadpis. V dokumente bude jeden nadpis prvej úrovne ``<h1>``. Napríklad:
+
+```html
+<body>
+<h1>Nadpis A</h1>
+<section>
+    <h2>Nadpis B</h2>
+    <section>
+        <h3>Nadpis C</h3>
+    </section>
+</section>
+<section>
+    <h2>Nadpis D</h2>
+    <section>
+        <h3>Nadpis E</h3>
+        <section>
+            <h4>Nadpis F</h4>
+        </section>
+    </section>
+    <section>
+        <h3>Nadpis G</h3>
+    </section>
+</section>
+</body>
+```
+
+Prípadne:
+
+```html
+<body>
+<h1>Nadpis A</h1>
+<section>
+    <h2>Nadpis B</h2>
+    <section>
+        <h3>Nadpis C</h3>
+    </section>
+
+    <h2>Nadpis D</h2>
+    <section>
+        <h3>Nadpis E</h3>
+        <section>
+            <h4>Nadpis F</h4>
+        </section>
+
+        <h3>Nadpis G</h3>
+    </section>
+</section>
+</body>
+```
+
+
+
 ## Literatúra
  * [Using HTML sections and outlines](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines)
  
@@ -327,7 +381,7 @@ Vytvorte kostru HTML5 dokumentu.
 ### Príklad 2
 Ako vyzerá osnova tohto HTML dokumentu ("zverstva")?
 
-```
+```html
 <body>
     <h1>Nadpis A</h1>
     <section>
