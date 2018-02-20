@@ -286,7 +286,7 @@ Osnova dokumentu je takáto:
     1. Nadpis B
 		1. Nadpis C
 		
-Klientské aplikácie - prehliadače - ale interpretujú osnovu takto:	
+Klientské aplikácie - prehliadače - **v súčasnosti** interpretujú osnovu takto:
 1. Nadpis A
 2. Nadpis B
 3. Nadpis C
