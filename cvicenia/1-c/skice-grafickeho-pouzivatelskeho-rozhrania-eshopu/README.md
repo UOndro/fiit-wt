@@ -130,7 +130,7 @@ Aj skice už vytvárajme s ohľadom na ekosystém. Nie je dobré miešať hrušk
   
  ### Mockup (skoro/realistická maketa dizajnu)
  Je reprezentácia návrhu/dizajnu (používateľského rozhrania) so strednou až vysokou vernosťou podrobností (angl. middle to high fidelity representation). Veľmi často je výstupom realistický - skutočný vizuálny dizajn, alebo takmer realistický vizuálny dizajnový koncept. Mal by:
- #
+
  * reprezentovať štruktúru informácií, vizualizovať obsah a demonštrovať základnú funkcionalitu statickou formou (obrazovky)
  * stvárnenie všetkých prvkov by malo umožniť ľuďom posúdiť vizuálnu stránku projektu
  
