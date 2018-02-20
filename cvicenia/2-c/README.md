@@ -28,13 +28,13 @@ Vytvorenie osnovy dokumentu v HTML4 je jednoduché. Máme k dispozícii šesť �
 Napríklad, takáto štruktúra HTML4 dokumentu:
 ```html
 <h1>Teória pohybových hier</h1>
-<h2>Charakteristika pohybových a športových hier</h3>
+<h2>Charakteristika pohybových a športových hier</h2>
 <p>V tejto podkapitole identifikujeme ...</p>
-<h2>Systematika pohybových hier</h3>
+<h2>Systematika pohybových hier</h2>
 <p>...</p>
-<h2>Pohybové hry v telesnej a športovej výchove</h3>
+<h2>Pohybové hry v telesnej a športovej výchove</h2>
 <p>...</p>
-<h3>Pohybové hry v module zdravie a jeho poruchy</h4>
+<h3>Pohybové hry v module zdravie a jeho poruchy</h3>
 <p>...</p>
 ```
 
@@ -107,11 +107,11 @@ Ilustrujme si to na tomto príklade:
 ```html
 <h2>Teória pohybových hier</h2>
 <article>
-    <h1>Charakteristika pohybových a športových hier</h3>
+    <h1>Charakteristika pohybových a športových hier</h1>
     <p>V tejto podkapitole identifikujeme ...</p>
 </article>
 <article>
-    <h1>Systematika pohybových hier</h3>
+    <h1>Systematika pohybových hier</h1>
     <p>...</p>
 </article>
 ```
