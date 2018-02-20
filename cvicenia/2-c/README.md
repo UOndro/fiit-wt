@@ -199,7 +199,7 @@ Zhrňme si to na tomto príklade, otváranie sekcií ilustrujem komentármi:
         <h1>Nadpis G</h1>
     </section>
       
-    <!-- implicitná sekcia: 3. úroveň -->
+    <!-- implicitná sekcia: 2. úroveň -->
     <h1>Nadpis H</h1>
 </section>
 <!-- uzatvorenie sekcie -->
