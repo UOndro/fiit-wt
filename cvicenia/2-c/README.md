@@ -238,6 +238,8 @@ Toto nie je zrovna osnova, ktorú by sme očakávali rýchlym pohľadom na danú
     <section>
         <h3>Nadpis C</h3> 
     </section>
+</section>    
+<section>
     <h2>Nadpis D</h2>
     <section>
         <h3>Nadpis E</h3> 
@@ -248,7 +250,11 @@ Toto nie je zrovna osnova, ktorú by sme očakávali rýchlym pohľadom na danú
     <section>
         <h3>Nadpis G</h3>
     </section>
+</section>
+<section>
     <h2>Nadpis H</h2>
+</section>
+<section>
     <h2>Nadpis I</h2>
     <section>
         <h3>Nadpis J</h3>
