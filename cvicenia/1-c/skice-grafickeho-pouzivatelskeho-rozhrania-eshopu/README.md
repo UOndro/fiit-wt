@@ -179,7 +179,7 @@ Aj skice už vytvárajme s ohľadom na ekosystém. Nie je dobré miešať hrušk
 
  ## Slovník, preklad anglických pojmov
  * webpage - webová stránka, konkrétny dokument (HTML)
- * website - webové stránky, kolekcia tématicky príbuzných webových stránok
+ * website - webové stránky, alebo web (s malým "w") - kolekcia tématicky príbuzných webových stránok
  * web application - webová aplikácia, aplikácia typu klient-server, kde klient beží vo webovom prehliadači
  * low fidelity representation (graphical user interface) - reprezentácia s nízkou vernosťou/presnosťou podrobností grafického používateľského rozhrania (nízkoúrovňová reprezentácia)
  * high fidelity representation - reprezentácia s vysokou vernosťou/presnosťou podrobností (vysokoúrovňová reprezentácia)
