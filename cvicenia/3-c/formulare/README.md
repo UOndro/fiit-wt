@@ -44,7 +44,7 @@ Vložme do nášho formulára tri textové vstupné polia, každé pole s titulk
 
 Vytvorili sme kontaktný formulár. Jednoduché textové polia sme vložili použitím elementu `<input>`, ktorého najdôležitejším atribútom je `type`. Tento atribút určuje typ textového pola. Je veľmi dôležitý, lebo určuje aj správanie vstupného pola.
 
-V prvom prípade sme použili hodnotu "text" (pozn. prednastavená hodnota pre tento atribút). Reprezentuje základný - jednoriadkový textový vstup. V druhom prípade sme použili hodnotu "email", ktorá určuje, že ide o jednoriadkový textový vstup, ale naviac, tento vstup musí spĺňať platný formát emailovej adresy. Moderné prehliadače povyšujú význam tohto atribútu, lebo kontrolujú, či je vstup od používatela naozaj správny - obyčajné textové pole je zrazu "inteligentné".
+V prvom prípade sme použili hodnotu "text" (pozn. prednastavená hodnota pre tento atribút). Reprezentuje základný - jednoriadkový textový vstup. V druhom prípade sme použili hodnotu "email", ktorá určuje, že ide o jednoriadkový textový vstup, ale naviac, tento vstup musí spĺňať platný formát emailovej adresy. Moderné prehliadače povyšujú význam tohto atribútu, lebo kontrolujú, či je vstup od používateľa naozaj správny - obyčajné textové pole je zrazu "inteligentné".
 
 Element `<textarea>` je základné vstupné textové pole s viacerými riadkami. Nie je to prázdny element narozdiel od elementu `<input>`. Toto má vplyv na nastavenie prenastavenej hodnoty. Zatiaľ čo v prípade elementu `<input>` určíme prednastavenú hodnotu pomocou atribútu `value`, v elemente `<textarea>` určíme prednastavenú hodnotu samotným obsahom elementu.
 
@@ -57,7 +57,7 @@ Element `<textarea>` je základné vstupné textové pole s viacerými riadkami.
 Elementy `<label>` reprezentujú titulky k vstupným poliam. Použitím atribútu `for`
 prepojíme daný titulok so vstupným polom. Hodnotou atribútu `for` je identifikátor predmetného vstupného pola - hodnota atribútu `id` (pozn.: kliknutím na titulok vstupného pola ho aktivujeme - získa tzv. focus)
 
-Použitím elementov `<div>` sme v našom príklade mysleli tak povediac dopredu - na budúce jednoduchšie štruktúrovanie a štýlovanie.
+Použitím elementov `<div>` sme v našom príklade mysleli takpovediac dopredu - na budúce jednoduchšie štruktúrovanie a štýlovanie.
 
 Aby sme umožnili používateľovi odoslať formulár, pridali sme tlačidlo "Odoslať správu" použitím elementu `<button>`. Tlačidlu je možné nastaviť atribút `type`, ktorý môže nadobúdať tieto hodnoty:
 
@@ -65,15 +65,17 @@ Aby sme umožnili používateľovi odoslať formulár, pridali sme tlačidlo "Od
 * `reset` - vynuluje/resetuje všetky hodnoty ovládacích prvkov na prednastavené hodnoty
 * `button` - kliknutím na tlačidlo sa nestane nič - na čo je to dobré? na vytváranie vlastných tlačidiel s JavaScriptom
 
-Poznámka: Tlačidlo na odoslanie formulára je možné spraviť aj použitím elementu `<input>` so zodpovedajúcim atribútom `type="submit"`. Hlavnou výhodou použitia elementu `<button>` je, že umožňuje dať ako názov/titulok HTML obsah, zatiaľ čo element `<input>` umožňuje iba jednoduchý text (angl. pain text).
+Hodnota atribútu `name` v ovládacích prvkoch sa pri odoslaní formulára odosiela spolu s údajmi.
+
+Poznámka: Tlačidlo na odoslanie formulára je možné spraviť aj použitím elementu `<input>` so zodpovedajúcim atribútom `type="submit"`. Hlavnou výhodou použitia elementu `<button>` je, že umožňuje dať ako názov/titulok HTML obsah, zatiaľ čo element `<input>` umožňuje iba jednoduchý text (angl. plain text).
 
 Poznámka 2: Je prísne zakázané vnárať formulár do formulára. Vnorenie môže spôsobiť, že sa formuláre správaju nepredvídateľne (na základe použitého prehliadača).
 
-Poznámka 3: Ovládacie prvky je možné používať aj mimo elementu `<form>`. V takom prípade však daný prvok nemá nič s "formulárom" ako takým, je potrebné mať dôvod na takého použitie a prispôsobiť ich správanie pomocou jazyka JavaScript. HTML5 umožňuje v ovládacom prvku definovať atribút `form`, ktorý explicitne prepojí/naviaže daný prvok s formulárom, aj keď v ňom nie je vnorený. Žiaľ, implementácia v prehliadačoch aktuálne nie je dosť dobrá, aby sa dalo na túto funkcionalitu spoľahnúť.
+Poznámka 3: Ovládací prvok je možné používať aj mimo elementu `<form>`. V takom prípade však daný prvok nemá nič s "formulárom" ako takým, je potrebné mať dôvod na takého použitie a prispôsobiť jeho správanie pomocou jazyka JavaScript. HTML5 umožňuje definovať v ovládacom prvku atribút `form`, ktorý explicitne prepojí/naviaže daný prvok s formulárom, aj keď v ňom nie je vnorený. Žiaľ, implementácia v prehliadačoch aktuálne nie je dosť dobrá, aby sa dalo na túto funkcionalitu spoľahnúť.
 
 ## Vytvorenie skupín ovladácích prvkov
 
-Element `<fieldset>` umožňuje vytvoriť skupiny ovládaích prvkov, ktoré "zdieľajú" rovnaký účel, ako po stránke štylizácie, tak po stránke sémantiky. Skupine prvkov je možné dať titulok použitím elementu `<legened>`, ktorý vložíme za otváraciu značku `<fieldset>`. Obsah elementu `<legend>` formálne opisuje účel skupiny.
+Element `<fieldset>` umožňuje vytvoriť skupiny ovládacích prvkov, ktoré "zdieľajú" rovnaký účel, ako po stránke štylizácie, tak po stránke sémantiky. Skupine prvkov je možné dať titulok použitím elementu `<legened>`, ktorý vložíme za otváraciu značku `<fieldset>`. Obsah elementu `<legend>` formálne opisuje účel skupiny.
 
 ```html
 <form>
@@ -95,9 +97,9 @@ Element `<fieldset>` umožňuje vytvoriť skupiny ovládaích prvkov, ktoré "zd
 </form>
 ```
 
-Čítačky obrazoviek, napr. [Jaws](http://www.freedomscientific.com/products/fs/jaws-product-page.asp) alebo [NVDA](http://www.nvda-project.org/) prečítajú zakaždým obsah v elemente `<legend>` predtým, ako prečítajú titulok každého z ovládacích prvkov. Element `<fieldset>` je jedným z kľúčových elementov pri vytváraní prístupných formulárov pre nevidiacich. Je dôležité vypočuť si, ako ho interpretuje čítačka obrazovky. Ak to znie zvláštne, treba zlepšiť texty a štruktúru formulára.
+Čítačky obrazoviek, napr. [Jaws](http://www.freedomscientific.com/products/fs/jaws-product-page.asp) alebo [NVDA](http://www.nvda-project.org/) prečítajú zakaždým obsah v elemente `<legend>` predtým, ako prečítajú titulok každého z ovládacích prvkov. Element `<fieldset>` je jedným z kľúčových elementov pri vytváraní prístupných formulárov pre nevidiacich. Ak/keď robíme web prístupný, je dobré vypočuť si, ako jednotlivé elementy interpretuje čítačka obrazovky. Ak to znie zvláštne, treba zlepšiť texty a štruktúru formulára.
 
-Použitie prepínačov (angl. radio buttons) si priam vždy pýta použiť element `<fieldset>`. Tento element je tiež možné použiť v prípade dlhých formulárov na rozdelenie ovládacích prvkov do sekcií, čo môže zvýšiť čitateľnosť/prehľadnosť - celkovú použiteľnosť.
+Použitie prepínačov (angl. radio buttons) si takmer vždy pýta použiť element `<fieldset>`. Tento element je tiež možné použiť v prípade dlhých formulárov na rozdelenie ovládacích prvkov do sekcií, čo môže zvýšiť čitateľnosť/prehľadnosť - celkovú použiteľnosť.
 
 ## Titulky ovládacích prvkov
 
@@ -164,7 +166,7 @@ Týmto atribútom je možné určiť, že vstup od používateľa je povinný:
 ```html
 <form>
   <label for="fullname">Aké je tvoje celé meno?</label>
-  <input id="fullname" required>
+  <input id="fullname" name="fullname" required>
   <button>Submit</button>
 </form>
 ```
@@ -196,8 +198,6 @@ Textové vstupné polia môžu mať definovanú minimálnu `minlength`, resp. ma
 </div>
 ```
 
-Poznámka: Hodnota atribútu `name` sa spolu s údajmi odosiela pri odoslaní formulára.
-
 ### Regulárny výraz
 Použitím atribútu `pattern` je možné definovať vzor - regulárny výraz, ktorému musí zodpovedať vstup.
 
@@ -205,7 +205,7 @@ Použitím atribútu `pattern` je možné definovať vzor - regulárny výraz, k
 ## Príklady na precvičenie
 
 ### Príklad 1
-Vytvorte platobný formulár, ktorý ilustruje nasledujúci obrázok. Vľavo je nenaštýlovaný formulár (tak ako HTML dokument vykreslil prehliadač Chrome, vpravo je [naštýlovaný formulár použitím týchto štýlov](zdroje/formulare-priklad1.css).
+Vytvorte platobný formulár, ktorý ilustruje nasledujúci obrázok. Vľavo je nenaštýlovaný formulár (tak ako HTML dokument vykreslil prehliadač Chrome, vpravo je [naštýlovaný formulár použitím týchto základných štýlov](zdroje/formulare-priklad1.css).
 
 ![Platobný formulár](zdroje/formulare-priklad1.jpg "Platobný formulár")
 

@@ -142,9 +142,9 @@ Uvažujme takúto jednoduchú tabuľku:
 
 ![Ukážka tabuľky so zvýrazneným druhým stĺpcom](zdroje/tabulky-ukazka-4.png "Ukážka tabuľky so zvýrazneným druhým stĺpcom")
 
-V tabuľke je zvýraznený druhý stĺpec. Toto sme docielili tak, že sme pomocou atribútu `style` aplikovali CSS štýl - vlastnosť `background-color`. Atribúty `<colgroup>` a `<col>` umožňujú zjednodušiť štýlovanie, aby sme nemuseli štýl určovať explicitne pre každú bunku - je to neefektívne a komplikuje to potenciálne zmeny (pozn. ďalšou z možností je aj použitie CSS selektora `:nth-child()`).
+V tabuľke je zvýraznený druhý stĺpec. Toto sme docielili tak, že sme pomocou atribútu `style` aplikovali CSS štýl - vlastnosť `background-color` na bunky v 2. stĺpci. Atribúty `<colgroup>` a `<col>` umožňujú zjednodušiť štýlovanie, aby sme nemuseli štýl určovať explicitne pre každú bunku - je to neefektívne a komplikuje to potenciálne zmeny (pozn. ďalšou z možností je aj použitie CSS selektora `:nth-child()`).
 
-Ukážme si, ako si môžeme pomôcť použitím elementov `colgroup` a `col`, uvažujme takýto príklad:
+Ukážme si, ako si môžeme pomôcť použitím elementov `colgroup` a `col`:
 
 ```html
 <table>
@@ -177,6 +177,8 @@ Pozrite si tiež ďalší príklad:
 
 ![Ukážka tabuľky so zvýraznenými stĺpcami - rozvrh](zdroje/tabulky-ukazka-5.png "Ukážka tabuľky so zvýraznenými stĺpcami - rozvrh")
 
+[Stiahnite si zdrojový súbor k danému príkladu](zdroje/tabulky-ukazka-5.html).
+
 ## Titulok tabuľky
 Titulok k tabuľke je možné pridať použitím elementu `<caption>`, ktorý by sa mal nachádzať za otváracou značkou `<table>`:
 
@@ -197,11 +199,11 @@ Poznámka: Element `<summary>` sa tiež zvykne používať na poskytnutie opisu.
 
 Keď majú tabuľky zložitejšiu štruktúru je dobré túto explicitne určiť. Jedným zo spôsobov je použiť tieto elementy:
 
-* `<thead>` - obaľuje obaľujúci tabuľky, ktorá tvorí hlavičku. Je to zvyčajne prvý riadok obsahujúci nadpisy stĺpcov.
+* `<thead>` - element obaľujúci časť tabuľky, ktorá tvorí hlavičku. Je to zvyčajne prvý riadok obsahujúci nadpisy stĺpcov.
 * `<tfoot>` - element obaľujúci časť tabuľky, ktorá tvorí pätičku. To môže byť posledný riadok obsahujúci spočítané hodnoty (sumy) predchádzajúcich riadkov. Tento element je možné vložiť jednak za element `<thead>`, jednak na koniec tabuľky (pred ukončovaciu značku `</table>`) - prehliadač ho bude vykreslovať zakaždým na konci tabuľky.
 * `<tbody>` - element obaľujúci telo tabuľky, obsah ktorý nie je v `<thead>` ani `<tfoot>`.
 
-Poznámka: Prehliadač vkladá vždy element `<tbody>` do každej tabuľky - implicitne, tzn. aj keď telo tabuľky nie je explicitne definované. Na vyskúšanie, otvorte si v priehliadači niektorý z predchádzajúcich príkladov, ktorý neobsahuje element `<tbody>` a pomocou vývojárskych nástrojov (Dev tools) môžete vidieť, že prehliadač pridal tento element. Zvyknite si pridávať element explicitne, poskytuje to lepšiu kontrolu nad štruktúrou a štýlovaním obsahu.
+Poznámka: Prehliadač vkladá vždy element `<tbody>` do každej tabuľky - implicitne, tzn. aj keď telo tabuľky nie je explicitne definované. Na vyskúšanie, otvorte si v priehliadači niektorý z predchádzajúcich príkladov, ktorý neobsahuje element `<tbody>` a pomocou vývojárskych nástrojov (Dev tools) môžete vidieť, že prehliadač pridal tento element. Zvyknite si však pridávať element explicitne, poskytuje to lepšiu kontrolu nad štruktúrou a štýlovaním obsahu.
 
 Poznámka 2: Tieto elementy zvyčajne neprispievajú k lepšej prístupnosti - pre čítačky obsahu a nemajú za následok žiadne vizuálne vylepšenia. Sú však užitočné pri štýlovaní.
 
