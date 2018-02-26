@@ -207,12 +207,12 @@ Poznámka 2: Tieto elementy zvyčajne neprispievajú k lepšej prístupnosti - p
 
 ## Vnorené tabuľky
 
-V HTML je možné vnoriť tabuľku do tabuľky, keď zahrnieme celú štruktúru počnúc elementom `<table>`. Vo v3eobecnosti to nie je odporúčané, lebo štruktúra je mätúca a takýto obsah je menej prístupný čítačkam. V mnohých prípadoch postačuje vložiť do tabuľky iba ďalšie riadky, resp. sĺpce. Niekedy je to však nutné, napr. keď chceme jednoducho importovať obsah z iného zdroja.
+V HTML je možné vnoriť tabuľku do tabuľky, keď zahrnieme celú štruktúru počnúc elementom `<table>`. Vo všeobecnosti to nie je odporúčané, lebo štruktúra je mätúca a takýto obsah je menej prístupný čítačkam. V mnohých prípadoch postačuje vložiť do tabuľky iba ďalšie riadky, resp. sĺpce. Niekedy je to však nutné, napr. keď chceme jednoducho importovať obsah z iného zdroja.
 
 <a name="c3-tabulky-priklady"></a>
 ## Príklady na precvičenie
 
 ### Príklad 1
-Vytvorte HTML tabuľku, ktorú ilustruje nasledujúci obrázok. [Použite pritom tieto štýly](tabulky-zakladne-styly.css).
+Vytvorte HTML tabuľku, ktorú ilustruje nasledujúci obrázok. [Použite pritom tieto štýly](zdroje/tabulky-zakladne-styly.css).
 
 ![Tabuľka planéty](zdroje/tabulky-priklad1.jpg "Tabuľka planéty")

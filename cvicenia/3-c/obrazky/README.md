@@ -37,4 +37,4 @@ Výsledok pre šírku okna 1200px by mal byť takýto:
 
 ![Ukážka riešenia - responzívne obrázky](zdroje/elpho-screencapture.jpg "Ukážka riešenia - responzívne obrázky")
 
-Služba [tinypng](https://tinypng.com/) je dobrým pomocníkom pri optimalizácii veľkosti so zachovaním kvality (dobrý balans medzi kvalitou a veľkosťou).
+Služba [tinypng](https://tinypng.com/) je dobrým pomocníkom pri optimalizácii veľkosti obrázkov so zachovaním kvality (dobrý balans medzi kvalitou a veľkosťou).
