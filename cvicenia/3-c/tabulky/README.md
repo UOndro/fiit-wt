@@ -205,7 +205,7 @@ Keď majú tabuľky zložitejšiu štruktúru je dobré túto explicitne určiť
 
 Poznámka: Prehliadač vkladá vždy element `<tbody>` do každej tabuľky - implicitne, tzn. aj keď telo tabuľky nie je explicitne definované. Na vyskúšanie, otvorte si v priehliadači niektorý z predchádzajúcich príkladov, ktorý neobsahuje element `<tbody>` a pomocou vývojárskych nástrojov (Dev tools) môžete vidieť, že prehliadač pridal tento element. Zvyknite si však pridávať element explicitne, poskytuje to lepšiu kontrolu nad štruktúrou a štýlovaním obsahu.
 
-Poznámka 2: Tieto elementy zvyčajne neprispievajú k lepšej prístupnosti - pre čítačky obsahu a nemajú za následok žiadne vizuálne vylepšenia. Sú však užitočné pri štýlovaní.
+Poznámka 2: Tieto elementy zvyčajne neprispievajú k lepšej prístupnosti (pre čítačky obsahu), nemajú za následok žiadne vizuálne vylepšenia. Sú však užitočné pri štýlovaní.
 
 ## Vnorené tabuľky
 
