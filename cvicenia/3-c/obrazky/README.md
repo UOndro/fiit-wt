@@ -1,6 +1,6 @@
 # HTML - Responzívne obrázky
 
-O responzívnych obrázkoch som rozprával na prednáške, [slajdami si pripomeňte základné princípy a podporu v HTML5](../prednasky/zdroje/02-WT-22-02-2018.pdf).
+O responzívnych obrázkoch som rozprával na prednáške, [slajdami si pripomeňte základné princípy a podporu v HTML5](/prednasky/zdroje/02-WT-22-02-2018.pdf).
 
 <a name="c3-responzivne-obrazky-priklady"></a>
 ## Príklady na precvičenie
