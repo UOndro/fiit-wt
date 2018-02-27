@@ -175,9 +175,9 @@ Podobne ako atribúty `rowspan` a `colspan`, `span` určuje počet stĺpcov, na 
 
 Pozrite si tiež ďalší príklad:
 
-![Ukážka tabuľky so zvýraznenými stĺpcami - rozvrh](zdroje/tabulky-ukazka-5.png "Ukážka tabuľky so zvýraznenými stĺpcami - rozvrh")
+![Ukážka tabuľky so zvýraznenými stĺpcami - rozvrh](zdroje/tabulky-ukazka-5a.png "Ukážka tabuľky so zvýraznenými stĺpcami - rozvrh")
 
-[Stiahnite si zdrojový súbor k danému príkladu](zdroje/tabulky-ukazka-5.html).
+[Stiahnite si zdrojový súbor k danému príkladu](zdroje/tabulky-ukazka-5a.html).
 
 ## Titulok tabuľky
 Titulok k tabuľke je možné pridať použitím elementu `<caption>`, ktorý by sa mal nachádzať za otváracou značkou `<table>`:
