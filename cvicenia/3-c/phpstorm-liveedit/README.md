@@ -20,10 +20,10 @@ Z Chrome Web Store si nainštalujte rozšírenie do prehliadača - [JetBrains ID
 
 ## Hotovo, editujme naživo...
 
-* Vytvorte si v projekte HTML dokument, napr. *hokuspokus.html*
+* Vytvorte si v projekte HTML dokument, napr. *hokuspokus.html*.
 * V PhpStorm sa cez hlavné menu navigujte do  *Run* -> *Edit Configurations...*.
 * V dialógovom okne vľavo hore je "zelené plus" - kliknutím pridajte novú konfiguráciu - vyberte *JavaScript Debug*.
-* V poli "Name" zadajte nejaký názov konfigurácie, ďalej v poli URL vyberte vytvorený súbor v projekte - *hokuspokus.html*
+* V poli "Name" zadajte nejaký názov konfigurácie, ďalej v poli URL vyberte vytvorený súbor v projekte - *hokuspokus.html*.
 * Uložte nastavenie.
 *  V PhpStorm sa cez hlavné menu navigujte do  *Run* -> *Debug...* a spustite vytvorenú konfiguráciu.
 
