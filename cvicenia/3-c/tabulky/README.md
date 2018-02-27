@@ -25,7 +25,7 @@ V prehliadači výstup vyzerá takto (s použitím prednastavených štýlov Chr
 
 ![Ukážka prvej tabuľky](zdroje/tabulky-ukazka-1.png "Ukážka prvej tabuľky")
 
-Vyskúšajte pripojiť k HTML dokumentu [základné štýly tables-basic.css](zdroje/tabulky-zakladne-styly.css), ktoré naformátujú tabuľku tak, aby bola lepšie čitateľná:
+Vyskúšajte pripojiť k HTML dokumentu [základné štýly](zdroje/tabulky-zakladne-styly.css), ktoré naformátujú tabuľku tak, aby bola lepšie čitateľná:
 
 ![Ukážka prvej tabuľky so štýlmi](zdroje/tabulky-ukazka-1b.png "Ukážka prvej tabuľky so štýlmi")
 
