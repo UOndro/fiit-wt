@@ -23,7 +23,8 @@ Je potrebné spraviť nasledujúce:
 * ďalej vytvorte 1200px široký variant obrázku [elephant_baby_playing_main.jpg](zdroje/elephant_baby_playing_main.jpg) (elephant_baby_playing_main-1200.jpg) a tiež 600px široký "portrait" variant s detailom na slona (elephant_baby_playing_main-600.jpg, spomeňte si na problém prezývaný art direction)
 
 * pridajte video do hlavného obsahu článku
-  * vložte YouTube video z [tohto odkazu](https://www.youtube.com/watch?v=SNggmeilXDQ), pričom jeho šírka by mala byť 400px 
+  * vložte YouTube video z [tohto odkazu](https://www.youtube.com/watch?v=SNggmeilXDQ), pričom jeho šírka by mala byť 400px
+  * hint: vložte video ako `iframe`, použite priamo YouTube funkcionalitu *EMBED* na vygenerovanie HTML kódu
   
 * vo vnútri elementu `<div class="further-info">` sú štyri `<a>` elementy, každý z nich odkazuje na pôvodný zdroj obrázku. Je potrebné vložiť do týchto elementov zodpovedajúce obrázky - elementy `<img>`, ktoré majú správne definované atribúty `src`, `alt`, `srcset` a `sizes`.
     * 120px široký variant sa zobrazí, ak šírka viewportu je 480px alebo menej
