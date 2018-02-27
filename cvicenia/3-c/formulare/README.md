@@ -49,7 +49,7 @@ V prvom prípade sme použili hodnotu "text" (pozn. prednastavená hodnota pre t
 Element `<textarea>` je základné vstupné textové pole s viacerými riadkami. Nie je to prázdny element narozdiel od elementu `<input>`. Toto má vplyv na nastavenie prenastavenej hodnoty. Zatiaľ čo v prípade elementu `<input>` určíme prednastavenú hodnotu pomocou atribútu `value`, v elemente `<textarea>` určíme prednastavenú hodnotu samotným obsahom elementu.
 
 ```html
-<input type="text" value="prednastavená hodnota" />
+<input type="text" value="prednastavená hodnota">
 
 <textarea>prednastavená hodnota</textarea>
 ```
