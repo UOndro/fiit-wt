@@ -214,7 +214,7 @@ V HTML je možné vnoriť tabuľku do tabuľky, keď zahrnieme celú štruktúru
 <a name="c3-tabulky-priklady"></a>
 ## Príklady na precvičenie
 
-### Príklad 1
+### Príklad
 Vytvorte HTML tabuľku, ktorú ilustruje nasledujúci obrázok. [Použite pritom tieto štýly](zdroje/tabulky-zakladne-styly.css).
 
 ![Tabuľka planéty](zdroje/tabulky-priklad1.jpg "Tabuľka planéty")

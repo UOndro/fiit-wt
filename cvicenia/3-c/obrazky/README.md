@@ -5,7 +5,7 @@ O responzívnych obrázkoch som rozprával na prednáške, [slajdami si pripome�
 <a name="c3-responzivne-obrazky-priklady"></a>
 ## Príklady na precvičenie
 
-### Príklad 1
+### Príklad
 Vašou úlohou je pridať video a obrázky do predpripravenej šablóny.
  Stiahnite si:
  * súbor [index.html](zdroje/index.html)
