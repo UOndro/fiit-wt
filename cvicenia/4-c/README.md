@@ -56,8 +56,8 @@ Pozn.: [Zdroj použitého obrázku Homera Simpsona](http://www.simpsoncrazy.com/
  * inline element - riadkový element
  * block element - blokový element
  * inline style - štýl definovaný atribútom style
- * internal style - interný štýl definovaný elementom <style>  
- * external style - externý štýl pripojený k dokumentu cez element <link>
+ * internal style - interný štýl definovaný elementom `<style>`  
+ * external style - externý štýl pripojený k dokumentu cez element `<link>`
  * viewport - viditeľný výrez (webovej stránky)
  * specificity - miera konkrétnosti
  * CSS box model - CSS blokový model
