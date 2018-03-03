@@ -19,6 +19,7 @@
 6. [PhpStorm - Live Edit](3-c/phpstorm-liveedit)
 
 **Cvičenie 4 (6.3.)**
+1. [Príklady na precvičenie](4-c/#c4-priklady)
 
 **Cvičenie 5 (13.3.)**
 
