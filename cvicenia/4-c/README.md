@@ -37,7 +37,7 @@ div {
 ### Príklad 5 - Homerova pracovná vizitka
 Vašou úlohou je vytvoriť jednoduchú pracovnú vizitku Homera Simpsona, jej vizuálne prevedenie by sa malo čo najviac približovať tomuto:
 
-![Homer Simpson's Nuclear power ID card](zdroje/id-card-preview.jpg "Homer Simpson's Nuclear power ID card")
+![Homer Simpson's Nuclear power ID card](zdroje/id-card-homer-simpson-preview.jpg "Homer Simpson's Nuclear power ID card")
 
 Stiahnite si súbory:
 * [homer.jpg](zdroje/homer.jpg)  
