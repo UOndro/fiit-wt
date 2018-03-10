@@ -1,4 +1,4 @@
-# Cvičenie 4 - CSS základy
+# Cvičenie 4 - CSS základy, selektory, box model
 
 <a name="c4-priklady"></a>
 ## Príklady na precvičenie

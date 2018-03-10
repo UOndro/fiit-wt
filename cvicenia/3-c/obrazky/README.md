@@ -3,9 +3,9 @@
 O responzívnych obrázkoch som rozprával na prednáške, [slajdami si pripomeňte základné princípy a podporu v HTML5](/prednasky/zdroje/02-WT-html.pdf).
 
 <a name="c3-responzivne-obrazky-priklady"></a>
-## Príklady na precvičenie
+# Príklady na precvičenie
 
-### Príklad
+## Príklad
 Vašou úlohou je pridať video a obrázky do predpripravenej šablóny.
  Stiahnite si:
  * súbor [index.html](zdroje/index.html)
