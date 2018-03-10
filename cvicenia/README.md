@@ -12,9 +12,9 @@
 **Cvičenie 3 (27.2.)**
 
 1. [HTML5: Responzívne obrázky - príklady na precvičenie](3-c/obrazky)
-2. [HTML5: Tabuľky](3-c/tabulky)
+2. [HTML5: Tabuľky - teória](3-c/tabulky)
 3. [HTML5: Tabuľky - príklady na precvičenie](3-c/tabulky#c3-tabulky-priklady)
-4. [HTML5: Formuláre](3-c/formulare)
+4. [HTML5: Formuláre - teória](3-c/formulare)
 5. [HTML5: Formuláre - príklady na precvičenie](3-c/formulare#c3-formulare-priklady)
 6. [PhpStorm - Live Edit](3-c/phpstorm-liveedit)
 
