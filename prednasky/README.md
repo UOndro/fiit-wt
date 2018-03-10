@@ -9,4 +9,5 @@
     * [príklady z prednášky](zdroje/priklady-03-WT-css.zip)
 4. [CSS - štandardný tok, rozloženie stránky, responzívny dizajn](zdroje/04-WT-css-responzivny-dizajn.pdf) (8.3.) 
     * [príklady z prednášky](zdroje/priklady-04-WT-css.zip)
-
+    * [Štýlovanie textu]()
+    * [Štýlovanie blokov]()
