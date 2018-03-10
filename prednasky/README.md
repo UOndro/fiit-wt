@@ -1,8 +1,8 @@
 # Prednášky
 
-1. [Úvod, HTML5, rozdeľujúce elementy](zdroje/01-WT-uvod-html.pdf) (15.2.), 
+1. [Úvod, HTML5 - rozdeľujúce elementy](zdroje/01-WT-uvod-html.pdf) (15.2.), 
     * [Osnova dokumentu](../cvicenia/2-c/zdroje/c2-osnova-dokumentu.pdf)
-2. [HTML5, účel, štruktúra a sémenatika textu, obrázky a multimédiá, ďalší obsah](zdroje/02-WT-html.pdf) (22.2.)
+2. [HTML5 - účel, štruktúra a sémenatika textu, obrázky a multimédiá, ďalší obsah](zdroje/02-WT-html.pdf) (22.2.)
     * [Formuláre](/cvicenia/3-c/formulare)
     * [Tabuľky](/cvicenia/3-c/tabulky)
 3. [CSS - úvod, selektory, box model](zdroje/03-WT-css-uvod-selektory-box.pdf) (1.3.)
